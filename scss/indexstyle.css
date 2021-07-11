@@ -1,0 +1,76 @@
+/*********  COLOURS  *********/
+/* PALETTE */
+/********* LIST PAGE *********/
+.innerlistGrid, .innerlabelGrid {
+  display: grid; }
+
+/* SETTING UP THE MAIN SECTIONS (DISH AND ITEM LIST) */
+#mainGrid {
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /*grid-gap: 5px;*/
+  /*padding: 5vh 0px;*/
+  text-align: center; }
+
+/* SETTING THE LIST SECTIONS (FOR THE LABEL, LIST, AND BUTTON)*/
+#dishlistGrid, #itemlistGrid {
+  grid-column: 2/3;
+  grid-template-rows: 1fr 6fr 1fr; }
+
+#disheslabelCont, #itemlabelCont {
+  grid-row: 1/2; }
+
+#disheslistCont, #itemlistCont {
+  grid-row: 2/3; }
+
+#dishesbuttonCont, #itembuttonCont {
+  grid-row: 3/4; }
+
+/* SETTING THE LIST SECTION (SEPARATE INTO 6 COLUMNS - LEAVE BUTTON TO ONLY ONE) */
+#itemlabelCont, #disheslabelCont, #disheslistCont, #itemlistCont {
+  grid-template-columns: auto auto auto auto auto auto; }
+
+#dLabelCont, #dishesCont, #ItemsCont {
+  grid-column: 1/2; }
+
+#r1labelCont, #recipeOneCont, #storeOneCont {
+  grid-column: 2/3; }
+
+#r2labelCont, #recipeTwoCont, #storeTwoCont {
+  grid-column: 3/4; }
+
+#r3labelCont, #recipeThreeCont, #storeThreeCont {
+  grid-column: 4/5; }
+
+#r4labelCont, #recipeFourCont, #storeFourCont {
+  grid-column: 5/6; }
+
+#r5labelCont, #recipeFiveCont, #storeFiveCont {
+  grid-column: 6/7; }
+
+/********* DISH LIST SECTION *********/
+/*#dishlistGrid { background-color: $x-clr-third-backcolor }*/
+#dishlistGrid, #itemlistGrid {
+  text-align: center;
+  padding: 2vh 0;
+  border: 2px solid #e9e9e9;
+  border-radius: 30px; }
+
+.label {
+  font-weight: 800; }
+
+.dish, .item {
+  font-size: 1.5vh;
+  margin: 3vh; }
+
+/*.null { display: none; }*/
+.recipe, .store, .null {
+  border: 2px solid #e9e9e9;
+  border-radius: 30px;
+  padding: .5vh .5vh;
+  margin: 2vh; }
+
+.null {
+  border-color: #ffffff; }
+
+/*# sourceMappingURL=indexstyle.css.map */

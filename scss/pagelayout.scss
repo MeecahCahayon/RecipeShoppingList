@@ -1,0 +1,79 @@
+/*********  COLOURS  *********/
+
+/* PALETTE */
+$palette-white-color: #ffffff;
+$palette-light-grey: #e9e9e9;
+$palette-dark-grey: #d8d8d8;
+$palette-darker-grey: rgba(93,93,93,255);
+
+$x-clr-primary-color: $palette-white-color;
+$x-clr-second-color: $palette-light-grey;
+$x-clr-third-backcolor: $palette-dark-grey;
+$x-clr-font-color: $palette-darker-grey;
+
+/*********  OVERALL STYLE  *********/
+
+body {
+	/*PAGE FONT*/
+	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Dosis', sans-serif;
+	font-size: small;
+
+	color: $x-clr-font-color;
+	
+	/* WHITE */
+	background-color: $x-clr-primary-color;
+
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+}
+
+/*********  GRID TEMPLATE  *********/
+
+.outerDiv, .outerGrids, .innerGrids { display: grid; }
+/*.outerGrids { background-color: transparent; border: solid 3px black; background }
+.innerGrids { background-color: transparent; border: solid 6px pink; background }*/
+
+/* GRID THE PAGE - ROWS */
+#pageOuterDiv{ grid-template-rows: auto 1fr auto; grid-gap: 5px; height: 100vh }
+
+/* GRID THE MAIN SECTIONS - COLUMN */
+#headerGrid, #footerGrid, #mainGrid { grid-template-columns: 1fr 3fr 1fr; grid-gap: 5px; }
+#headerGrid { grid-template-rows: auto auto; }
+
+/*********  HEADER SECTION PAGE GRID  *********/
+
+#headerGrid { grid-column: 1/4;  background-color: $x-clr-second-color; }
+
+#headingGrid, #mainMenuBtnGrid { grid-column: 2/3; }
+
+#headingCont {
+	text-transform: uppercase;
+	text-align: center;
+	/*font-weight: 200;*/
+	font-size: 3.5vh;
+}
+
+#mainMenuBtnCont p {
+	display: inline-block;
+	padding: 2vh;
+	/*margin: 0vh .5vh;*/
+}
+
+/*********  MAIN SECTION PAGE GRID  *********/
+
+#mainGrid { grid-column: 1/4; }
+
+/*********  FOOTER SECTION PAGE GRID  *********/
+
+#footerGrid { grid-column: 1/4; background-color: $x-clr-second-color; }
+
+#footGrid { grid-column: 1/4; }
+#footerCont {
+	text-transform: uppercase;
+	text-align: center;
+	/*font-weight: 200;*/
+	font-size: x-small;
+}
