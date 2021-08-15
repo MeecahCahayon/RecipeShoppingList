@@ -1,32 +1,36 @@
-/*********  COLOURS  *********/
+/************************** ALL PAGE **************************/
+/*********  VARIABLES  *********/
 /* PALETTE */
+/* BACKGROUNDS */
+/* FONT */
+/* FONTS */
 /*********  OVERALL STYLE  *********/
 body {
-  /*PAGE FONT*/
-  /*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-  /*font-family: 'Titillium Web', sans-serif;*/
-  font-family: 'Dosis', sans-serif;
-  font-size: small;
-  color: #5d5d5d;
-  /* WHITE */
-  background-color: #ffffff;
+  /* COLOURS */
+  color: #ffdae0;
+  background-color: #282923;
+  /* FONT */
+  font-family: "Bungee Hairline", cursive;
+  font-size: medium;
+  font-weight: 600;
+  /* STYLE */
   text-align: center;
   text-decoration: none;
   margin: 0; }
 
 /*********  GRID TEMPLATE  *********/
-.outerDiv, .outerGrids, .innerGrids {
+.outerDiv, .outerGrids {
   display: grid; }
 
-/*.outerGrids { background-color: transparent; border: solid 3px black; background }
-.innerGrids { background-color: transparent; border: solid 6px pink; background }*/
+/*.outerGrids { border: solid 3px white; }*/
+/*.innerGrids { border: solid 3px white; }*/
 /* GRID THE PAGE - ROWS */
 #pageOuterDiv {
   grid-template-rows: auto 1fr auto;
   grid-gap: 5px;
   height: 100vh; }
 
-/* GRID THE MAIN SECTIONS - COLUMN */
+/* GRID THE MAIN SECTIONS - COLUMN - DEFAULT*/
 #headerGrid, #footerGrid, #mainGrid {
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 5px; }
@@ -37,21 +41,39 @@ body {
 /*********  HEADER SECTION PAGE GRID  *********/
 #headerGrid {
   grid-column: 1/4;
-  background-color: #e9e9e9; }
+  background-color: #181915; }
 
 #headingGrid, #mainMenuBtnGrid {
   grid-column: 2/3; }
 
 #headingCont {
+  /* COLOURS */
+  color: #ff748c;
+  /* FONTS */
+  font-weight: 600;
+  font-size: 3.5vh;
+  /* STYLE */
   text-transform: uppercase;
-  text-align: center;
-  /*font-weight: 200;*/
-  font-size: 3.5vh; }
+  text-align: center; }
 
 #mainMenuBtnCont p {
+  /* COLOURS */
+  color: #ffdae0;
+  /* FONTS */
+  font-size: large;
+  /* STYLE */
   display: inline-block;
-  padding: 2vh;
-  /*margin: 0vh .5vh;*/ }
+  text-decoration: none;
+  padding: 0 2vh;
+  margin: 0;
+  cursor: pointer; }
+  #mainMenuBtnCont p:hover {
+    /* COLOURS */
+    background-color: #282923;
+    /* FONTS */
+    /* STYLE */
+    border-radius: 10px 10px 0 0;
+    opacity: 0.5; }
 
 /*********  MAIN SECTION PAGE GRID  *********/
 #mainGrid {
@@ -60,15 +82,120 @@ body {
 /*********  FOOTER SECTION PAGE GRID  *********/
 #footerGrid {
   grid-column: 1/4;
-  background-color: #e9e9e9; }
+  background-color: #282923; }
 
 #footGrid {
   grid-column: 1/4; }
 
 #footerCont {
+  /* COLOURS */
+  color: #74705d;
+  /* FONTS */
+  font-weight: 600;
+  font-size: small;
+  /* STYLE */
   text-transform: uppercase;
-  text-align: center;
-  /*font-weight: 200;*/
-  font-size: x-small; }
+  text-align: center; }
+
+/*********  FUNCTIONS  *********/
+/* MENU */
+.activepage {
+  /* COLOURS */
+  background-color: #282923;
+  /* FONTS */
+  /* STYLE */
+  border-radius: 10px 10px 0 0; }
+
+/* PAGE/FORM HEADING (SECOND HEADING) */
+/* PAGE HEADING */
+.secondHeadingPage, .secondHeadingForm {
+  /* COLOURS */
+  /* FONTS */
+  font-family: "Bungee Inline", cursive;
+  font-size: x-large;
+  font-weight: 100;
+  /* STYLE */ }
+  .secondHeadingPage p, .secondHeadingForm p {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    margin: 0; }
+
+.secondHeadingForm {
+  /* COLOURS */
+  /* FONTS */
+  font-size: medium;
+  /* STYLE */ }
+
+.subtitle {
+  /* COLOURS */
+  /* FONTS */
+  font-size: x-small;
+  /* STYLE */ }
+  .subtitle p {
+    margin: 0; }
+
+/* WARNINGS */
+.warningSec {
+  /* COLOURS */
+  color: #ff284d;
+  /* FONTS */
+  font-size: small;
+  /* STYLE */
+  text-transform: uppercase; }
+  .warningSec p {
+    margin: 0; }
+
+.successMsg {
+  /* COLOURS */
+  color: #ff748c; }
+
+/* BUTTON */
+button {
+  /* COLOURS */
+  color: #ffdae0;
+  background-color: #282923;
+  border-color: #d8d8d8;
+  /* FONTS */
+  font-family: "Bungee Hairline", cursive;
+  font-size: 1.25vh;
+  font-weight: 600;
+  /* STYLE */
+  text-decoration: none;
+  border-radius: 30px;
+  padding: .3vh 2vw;
+  margin: .5vh;
+  cursor: pointer; }
+  button:hover {
+    opacity: 0.5; }
+  button p {
+    margin: 0px;
+    padding: 0px; }
+
+/* INPUTS */
+.loginInput, .searchInput, .formInput {
+  /* COLOURS */
+  color: #ffdae0;
+  background-color: #282923;
+  border-color: #d8d8d8;
+  /* FONTS */
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 1px;
+  font-size: 1.50vh;
+  font-weight: 400;
+  /* STYLE */
+  text-decoration: none;
+  border: 0.5px solid;
+  border-radius: 30px;
+  padding: 0.9vh 2vw;
+  margin: 2% 0%;
+  width: 50%; }
+
+/* FORMS */
+.formLbl {
+  margin: 2% 2%; }
+
+#formButton {
+  margin: 5% 0% 0 0; }
 
 /*# sourceMappingURL=pagelayout.css.map */

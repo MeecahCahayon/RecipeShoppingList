@@ -1,0 +1,16 @@
+[13-Aug-2021 13:20:43 Europe/Berlin] PHP Warning:  require_once(../db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 10
+[13-Aug-2021 13:20:43 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../db.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 10
+[13-Aug-2021 13:21:35 Europe/Berlin] PHP Warning:  require_once(../db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 10
+[13-Aug-2021 13:21:35 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../db.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 10
+[13-Aug-2021 13:21:41 Europe/Berlin] PHP Warning:  require_once(../db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 10
+[13-Aug-2021 13:21:41 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../db.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 10
+[13-Aug-2021 13:21:51 Europe/Berlin] PHP Warning:  require_once(../db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 10
+[13-Aug-2021 13:21:51 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../db.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 10
+[13-Aug-2021 13:23:27 Europe/Berlin] PHP Notice:  Undefined variable: row in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 28
+[13-Aug-2021 13:23:27 Europe/Berlin] PHP Notice:  Undefined variable: row in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 28
+[13-Aug-2021 13:23:27 Europe/Berlin] PHP Notice:  Undefined variable: row in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 28
+[13-Aug-2021 13:40:43 Europe/Berlin] PHP Notice:  Undefined index: user in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 17
+[13-Aug-2021 13:40:44 Europe/Berlin] PHP Notice:  Undefined index: user in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 17
+[13-Aug-2021 13:40:57 Europe/Berlin] PHP Notice:  Undefined index: user in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 17
+[13-Aug-2021 14:50:24 Europe/Berlin] PHP Notice:  Undefined index: user in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 17
+[13-Aug-2021 14:50:36 Europe/Berlin] PHP Notice:  Undefined index: user in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 17

@@ -1,0 +1,81 @@
+/************************** DISH PAGE **************************/
+
+/*********  VARIABLES  *********/
+
+/* PALETTE */
+$palette-light-grey: #d8d8d8;
+$palette-darker-grey: #181915;
+
+/* BACKGROUNDS */
+$clr-main-bk-head: $palette-darker-grey;
+$clr-main-bk-border: $palette-light-grey;
+
+/* FONTS */
+$fnt-bungee-outline: 'Bungee Outline', cursive;
+$fnt-bungee-inline: 'Bungee Inline', cursive;
+
+/********* MAIN SECTIONS GRID - IF NOT USING DEFAULT *********/
+/* SETTING UP THE GRID OF MAIN SECTIONS - IF NOT USING DEFAULT */
+
+/* MAIN SECTIONS */
+#headerGrid { grid-template-rows: auto auto; }
+#mainGrid { grid-template-rows: 0.5fr 0.5fr 3fr 0.5fr;}
+
+/* MAIN CONTENT */
+#dishHeadingGrid, #dishSearchGrid, #dishLstGrid, #dishButtonGrid { 
+	
+	grid-column: 2/3;
+	padding: 2vh;
+
+}
+
+#dishHeadingGrid { grid-row: 1/2; }
+#dishSearchGrid { grid-row: 2/3; }
+#dishLstGrid { grid-row: 3/4; }
+#dishButtonGrid { grid-row: 4/5; }
+
+/********* MAIN CONTENT *********/
+
+/* THE RECIPE */
+.recipeName {
+
+	/* COLOURS */
+	border-color: $clr-main-bk-border;
+	border-width: 0 0 1px 0;
+
+	/* FONTS */
+	font-size: medium;
+
+	/* STYLE */
+	border-style: solid;
+
+	/*border-color: $clr-main-bk-head;
+	border-width: 0 0 2px 0;*/
+}
+
+/* BUTTON AND INPUTS */
+
+#dishButtonContent{
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	text-align: right;
+}
+
+#addrecipebtn, #seacrhrecipebtn {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	padding: .1vh 1vw;
+	text-align: right;
+}
+
+#searchField {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	text-align: right;
+}

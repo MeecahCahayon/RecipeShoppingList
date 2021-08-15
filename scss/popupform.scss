@@ -1,0 +1,94 @@
+/************************** POPUP FORM **************************/
+
+/*********  VARIABLES  *********/
+
+/* PALETTE */
+/*same as #181915 with opacity*/
+$palette-darker-grey-opacity: rgba(24,25,21,0.6);
+$palette-darker-grey: #181915;
+$palette-light-grey: #d8d8d8;
+
+/* BACKGROUNDS */
+$clr-main-bk-modal: $palette-darker-grey-opacity;
+$clr-main-bk-form: $palette-darker-grey;
+$clr-main-bk-border: $palette-light-grey;
+
+/* FONT */
+/* FONTS */
+
+/* THE POPUP FORM */
+
+/* THE MODAL (BACKGROUND) */
+.modal 
+{
+	/* Stay in place */
+	position: fixed;
+	display: none;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	left: 0;
+	top: 0;
+
+	/* Enable scroll if needed */
+	overflow: auto;
+
+	/* COLOURS */
+	/* Black w/ opacity */
+	background-color: $clr-main-bk-modal;
+
+	/* FONT */
+	/* STYLE */
+	/*padding-top: 25%;*/
+}
+
+/* MODAL CONENT (THE BOX)*/
+.popupform {
+
+	/* COLOURS */
+	/* FONT */
+	/* STYLE */
+	padding: 2.5vh;
+}
+
+.modal-content {
+
+	/* COLOURS */
+	background-color: #434343;
+	background-color: $clr-main-bk-form;
+
+	/* FONT */
+	/* STYLE */
+	border: 1px solid $clr-main-bk-border;
+	border-radius: 10px;
+	margin: 15% auto;
+	width: 35%;
+}
+
+/* ADD ZOOM ANIMATION */
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)} 
+	to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+}
+
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+/* Change styles for span and cancel button on extra small screens */
+/*@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelBtn {
+		width: 100%;
+	}
+}*/

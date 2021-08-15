@@ -1,0 +1,21 @@
+/************************** DASHBOARD PAGE **************************/
+/*********  VARIABLES  *********/
+/* PALETTE */
+/* BACKGROUNDS */
+/********* MAIN SECTIONS GRID - IF NOT USING DEFAULT *********/
+/* SETTING UP THE GRID OF MAIN SECTIONS - IF NOT USING DEFAULT */
+/* MAIN SECTIONS */
+#headerGrid {
+  grid-template-rows: auto auto; }
+
+#mainGrid {
+  grid-template-rows: auto auto; }
+
+/* MAIN CONTENT */
+#grocerylstGrid, #menulstGrid {
+  grid-column: 2/3;
+  padding: 3vh; }
+
+/********* MAIN CONTENT *********/
+
+/*# sourceMappingURL=dashboardstyle.css.map */

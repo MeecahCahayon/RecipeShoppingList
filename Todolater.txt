@@ -1,5 +1,15 @@
-Notes:
+/****************************************************
+*   			  FOR USER ACCOUNT					*
+*****************************************************/
 
-label fix indentation
-Choices hover icon
-Choices hover highlights?
+// TO ADD
+- ADD SALT TO THE HASH
+- ANIMATE ERROR DISPLAY
+- ADD SECURITY MEASURES
+	CHECK IF PASSWORD HAS ALL THE ALPHABET TYPE
+
+
+// BUG FOUND
+- CASE SENSITIVE ON LOG IN
+	meecah and Meecah for username works
+

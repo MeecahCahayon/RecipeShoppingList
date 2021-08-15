@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iEAAiE;AAEjE,iCAAiC;AAEjC,aAAa;AAEb,iBAAiB;AAEjB,+DAA+D;AAC/D,iEAAiE;AAEjE,mBAAmB;AACnB,WAAY;EAAE,kBAAkB,EAAE,SAAS;;AAC3C,SAAU;EAAE,kBAAkB,EAAE,IAAI;;AAEpC,kBAAkB;AAClB,YAAa;EAEZ,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,GAAG;;AAIb,kCAAkC",
+"sources": ["shopstyle.scss"],
+"names": [],
+"file": "shopstyle.css"
+}

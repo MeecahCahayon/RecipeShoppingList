@@ -1,30 +1,52 @@
-/*********  COLOURS  *********/
+/************************** ALL PAGE **************************/
+
+/*********  VARIABLES  *********/
 
 /* PALETTE */
 $palette-white-color: #ffffff;
-$palette-light-grey: #e9e9e9;
-$palette-dark-grey: #d8d8d8;
-$palette-darker-grey: rgba(93,93,93,255);
+$palette-lighter-grey: #e9e9e9;
+$palette-light-grey: #d8d8d8;
+$palette-dark-grey: #282923;
+$palette-darker-grey: #181915;
+$palette-old-grey: #74705d;
 
-$x-clr-primary-color: $palette-white-color;
-$x-clr-second-color: $palette-light-grey;
-$x-clr-third-backcolor: $palette-dark-grey;
-$x-clr-font-color: $palette-darker-grey;
+$palette-lighter-pink: #ffdae0;
+$palette-pink: #ff748c;
+$palette-darker-pink: #ff284d;
+
+/* BACKGROUNDS */
+$clr-main-bk-body: $palette-dark-grey;
+$clr-main-bk-head: $palette-darker-grey;
+$clr-main-bk-btn: $palette-dark-grey;
+$clr-main-bk-border: $palette-light-grey;
+
+/* FONT */
+$clr-main-font-body: $palette-lighter-pink;
+$clr-main-font-head: $palette-pink;
+$clr-main-font-btn: $palette-lighter-pink;
+$clr-main-font-warning: $palette-darker-pink;
+
+/* FONTS */
+$fnt-bungee-outline: 'Bungee Outline', cursive;
+$fnt-bungee-inline: 'Bungee Inline', cursive;
+$fnt-bungee-hairline: 'Bungee Hairline', cursive;
+$fnt-josefinslab: 'Josefin Slab', serif;
+
 
 /*********  OVERALL STYLE  *********/
 
 body {
-	/*PAGE FONT*/
-	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
-	/*font-family: 'Titillium Web', sans-serif;*/
-	font-family: 'Dosis', sans-serif;
-	font-size: small;
 
-	color: $x-clr-font-color;
-	
-	/* WHITE */
-	background-color: $x-clr-primary-color;
+	/* COLOURS */
+	color: $clr-main-font-body;
+	background-color: $clr-main-bk-body;
 
+	/* FONT */
+	font-family: $fnt-bungee-hairline;
+	font-size: medium;
+	font-weight: 600;
+
+	/* STYLE */
 	text-align: center;
 	text-decoration: none;
 	margin: 0;
@@ -32,34 +54,64 @@ body {
 
 /*********  GRID TEMPLATE  *********/
 
-.outerDiv, .outerGrids, .innerGrids { display: grid; }
-/*.outerGrids { background-color: transparent; border: solid 3px black; background }
-.innerGrids { background-color: transparent; border: solid 6px pink; background }*/
+.outerDiv, .outerGrids { display: grid; }
+/*.outerGrids { border: solid 3px white; }*/
+/*.innerGrids { border: solid 3px white; }*/
 
 /* GRID THE PAGE - ROWS */
 #pageOuterDiv{ grid-template-rows: auto 1fr auto; grid-gap: 5px; height: 100vh }
 
-/* GRID THE MAIN SECTIONS - COLUMN */
+/* GRID THE MAIN SECTIONS - COLUMN - DEFAULT*/
 #headerGrid, #footerGrid, #mainGrid { grid-template-columns: 1fr 3fr 1fr; grid-gap: 5px; }
 #headerGrid { grid-template-rows: auto auto; }
 
 /*********  HEADER SECTION PAGE GRID  *********/
 
-#headerGrid { grid-column: 1/4;  background-color: $x-clr-second-color; }
-
+#headerGrid { grid-column: 1/4;  background-color: $clr-main-bk-head; }
 #headingGrid, #mainMenuBtnGrid { grid-column: 2/3; }
 
 #headingCont {
+
+	/* COLOURS */
+	color: $clr-main-font-head;
+
+	/* FONTS */
+	font-weight: 600;
+	font-size: 3.5vh;
+
+	/* STYLE */
 	text-transform: uppercase;
 	text-align: center;
-	/*font-weight: 200;*/
-	font-size: 3.5vh;
 }
 
-#mainMenuBtnCont p {
-	display: inline-block;
-	padding: 2vh;
-	/*margin: 0vh .5vh;*/
+#mainMenuBtnCont {
+	p {
+
+		/* COLOURS */
+		color: $clr-main-font-body;
+
+		/* FONTS */
+		font-size: large;
+
+		/* STYLE */
+		display: inline-block;
+		text-decoration: none;
+		padding: 0 2vh;
+		margin: 0;
+		cursor: pointer;
+
+		&:hover {
+
+			/* COLOURS */
+			background-color: $clr-main-bk-body;
+
+			/* FONTS */
+
+			/* STYLE */
+			border-radius: 10px 10px 0 0;
+			opacity: 0.5;
+		}
+	}
 }
 
 /*********  MAIN SECTION PAGE GRID  *********/
@@ -68,12 +120,168 @@ body {
 
 /*********  FOOTER SECTION PAGE GRID  *********/
 
-#footerGrid { grid-column: 1/4; background-color: $x-clr-second-color; }
-
+#footerGrid { grid-column: 1/4; background-color: $clr-main-bk-body; }
 #footGrid { grid-column: 1/4; }
+
 #footerCont {
+
+	/* COLOURS */
+	color: $palette-old-grey;
+
+	/* FONTS */
+	font-weight: 600;
+	font-size: small;
+
+	/* STYLE */
 	text-transform: uppercase;
 	text-align: center;
-	/*font-weight: 200;*/
+}
+
+/*********  FUNCTIONS  *********/
+
+/* MENU */
+.activepage {
+
+	/* COLOURS */
+	background-color: $clr-main-bk-body;
+
+	/* FONTS */
+
+	/* STYLE */
+	border-radius: 10px 10px 0 0;
+}
+
+/* PAGE/FORM HEADING (SECOND HEADING) */
+
+/* PAGE HEADING */
+.secondHeadingPage, .secondHeadingForm {
+
+	/* COLOURS */
+
+	/* FONTS */
+	font-family: $fnt-bungee-inline;
+	font-size: x-large;
+	font-weight: 100;
+
+	/* STYLE */
+
+	p {
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+		margin: 0;
+	}
+
+}
+
+.secondHeadingForm {
+
+	/* COLOURS */
+
+	/* FONTS */
+	font-size: medium;
+
+	/* STYLE */
+}
+
+.subtitle {
+
+	/* COLOURS */
+
+	/* FONTS */
 	font-size: x-small;
+
+	/* STYLE */
+
+	p {
+		margin: 0;
+	}
+}
+
+/* WARNINGS */
+.warningSec {
+	/* COLOURS */
+	color: $clr-main-font-warning;
+
+	/* FONTS */
+	font-size: small;
+
+	/* STYLE */
+	text-transform: uppercase;
+
+	p {
+		margin: 0;
+	}
+}
+
+.successMsg{
+
+	/* COLOURS */
+	color: $clr-main-font-head;
+}
+
+/* BUTTON */
+
+button {
+
+	/* COLOURS */
+	color: $clr-main-font-btn;
+	background-color: $clr-main-bk-btn;
+	border-color: $clr-main-bk-border;
+
+	/* FONTS */
+	font-family: $fnt-bungee-hairline;
+	font-size: 1.25vh;
+	font-weight: 600;
+
+	/* STYLE */
+	text-decoration: none;
+	border-radius: 30px;
+	padding: .3vh 2vw;
+	margin: .5vh;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 0.5;
+	}
+
+	p {
+		margin: 0px;
+		padding: 0px;
+	}
+
+}
+
+/* INPUTS */
+
+.loginInput, .searchInput, .formInput {
+
+	/* COLOURS */
+	color: $clr-main-font-btn;
+	background-color: $clr-main-bk-btn;
+	border-color: $clr-main-bk-border;
+
+	/* FONTS */
+	font-family: $fnt-josefinslab;
+	letter-spacing: 1px;
+	font-size: 1.50vh;
+	font-weight: 400;
+
+	/* STYLE */
+	text-decoration: none;
+	border: 0.5px solid;
+	border-radius: 30px;
+	padding: 0.9vh 2vw;
+	margin: 2% 0%;
+	width: 50%;
+}
+
+/* FORMS */
+
+.formLbl {
+	margin: 2% 2%;
+}
+
+#formButton {
+	margin: 5% 0% 0 0;
 }

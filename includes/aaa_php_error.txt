@@ -1,0 +1,45 @@
+[11-Aug-2021 16:42:15 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:43:41 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:44:14 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:44:41 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:45:08 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:48:17 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:49:55 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:50:08 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:50:32 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:52:56 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[11-Aug-2021 16:53:30 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[12-Aug-2021 09:09:16 Europe/Berlin] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 35
+[12-Aug-2021 09:09:16 Europe/Berlin] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:09:16 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:09:26 Europe/Berlin] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 35
+[12-Aug-2021 09:09:26 Europe/Berlin] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:09:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:09:41 Europe/Berlin] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 35
+[12-Aug-2021 09:09:41 Europe/Berlin] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:09:41 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:10:08 Europe/Berlin] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 35
+[12-Aug-2021 09:10:08 Europe/Berlin] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:10:08 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:10:39 Europe/Berlin] PHP Notice:  Undefined index: MaterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 09:14:22 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 38
+[12-Aug-2021 09:17:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 38
+[12-Aug-2021 09:18:23 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 37
+[12-Aug-2021 10:01:26 Europe/Berlin] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:01:26 Europe/Berlin] PHP Warning:  password_hash() expects parameter 3 to be array, null given in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:01:37 Europe/Berlin] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:01:37 Europe/Berlin] PHP Warning:  password_hash() expects parameter 3 to be array, null given in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:02:06 Europe/Berlin] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:02:06 Europe/Berlin] PHP Warning:  password_hash() expects parameter 3 to be array, null given in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:02:49 Europe/Berlin] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:02:49 Europe/Berlin] PHP Warning:  password_hash() expects parameter 3 to be array, null given in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:03:09 Europe/Berlin] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:03:09 Europe/Berlin] PHP Warning:  password_hash() expects parameter 3 to be array, null given in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:03:47 Europe/Berlin] PHP Notice:  Undefined variable: options in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[12-Aug-2021 10:03:47 Europe/Berlin] PHP Warning:  password_hash() expects parameter 3 to be array, null given in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 52
+[14-Aug-2021 13:09:19 Europe/Berlin] PHP Notice:  Undefined index: MasterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[14-Aug-2021 13:09:30 Europe/Berlin] PHP Notice:  Undefined index: MasterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[14-Aug-2021 13:10:08 Europe/Berlin] PHP Notice:  Undefined index: MasterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[14-Aug-2021 13:10:34 Europe/Berlin] PHP Notice:  Undefined index: MasterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[14-Aug-2021 13:13:36 Europe/Berlin] PHP Notice:  Undefined index: MasterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
+[14-Aug-2021 13:13:56 Europe/Berlin] PHP Notice:  Undefined index: MasterPass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\processlogin.php on line 32
