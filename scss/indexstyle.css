@@ -1,10 +1,14 @@
 /************************** LOGIN PAGE **************************/
-/*********  VARIABLES  *********/
+/*						  										*/
+/****************************************************************/
+/**************************** VARIABLES *************************/
 /* PALETTE */
 /* BACKGROUNDS */
-/********* MAIN SECTIONS GRID - IF NOT USING DEFAULT *********/
-/* SETTING UP THE GRID OF MAIN SECTIONS - IF NOT USING DEFAULT */
-/* MAIN SECTIONS */
+/* FONT COLOUR */
+/************************** GRID TEMPLATE ***********************/
+/*						IF NOT USING DEFAULT					*/
+/****************************************************************/
+/************************** EACH SECTIONS ***********************/
 #headerGrid {
   grid-template-rows: auto; }
 
@@ -12,12 +16,13 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto; }
 
-/* MAIN CONTENT */
 #loginGrid {
   grid-column: 2/3;
   padding: 20vh 0px; }
 
-/********* MAIN CONTENT *********/
+/************************** MAIN CONTENT ************************/
+/*						  										*/
+/****************************************************************/
 #loginContent {
   /* COLOURS */
   background-color: #181915;
@@ -26,5 +31,12 @@
   border: 2px solid #d8d8d8;
   border-radius: 30px;
   padding: 3vh; }
+
+/***************************** BUTTONS **************************/
+button {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  padding: .3vh 2vw; }
 
 /*# sourceMappingURL=indexstyle.css.map */

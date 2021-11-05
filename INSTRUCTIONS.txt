@@ -1,0 +1,62 @@
+/************************************************************
+* 							USER 							*
+*************************************************************/
+username: meecah
+password: meecah
+
+username: connor
+password: Connor12
+
+/************************************************************
+* 					SOFTWARE REQUIREMENT 					*
+*************************************************************/
+
+// MUST HAVE PYTHON
+
+
+// MUST HAVE REQUESTS INSTALLED
+python -m pip install requests
+
+
+// MUST HAVE BEAUTIFUL SOUP INSTALLED
+pip install beautifulsoup4
+
+
+// MUST HAVE MYSQL.CONNECTOR INSTALLED
+pip install mysql-connector-python
+
+
+// MUST HAVE SELENIUM INSTALLED
+pip install selenium
+
+
+// MUST HAVE CHROME DRIVER
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+
+/************************************************************
+* 							DATABASE 						*
+*************************************************************/
+
+- I HAVE PROVIDED HOW TO CREATE THE DATABASE
+- HOWEVER, I ALSO PROVIDED THE DATABASE WITH DATA IN IT
+
+- TEHSE ARE UNDER SQL FOLDER
+
+/************************************************************
+* 							SCRAPING 						*
+*************************************************************/
+
+- IF YOU WANT TO SCRAPE DATA
+	~ MAKE SURE YOU DONT SPAM THE SCRAPER ON ONE WEBSITE AS THEY MIGHT BLOCK YOU FROM THEIR WEBSITE
+	~ BEST PRACTICE FOR SCRAPING IS TO SCRAPE AS MINIMUM TIMES AS POSSIBLE. THIS IS BECAUSE WE ARE USING THEIR SERVICE AND THEY ARE PAYING FOR IT. AND SCRAPING IS FOR FREE.
+	~ I USUALLY SCRAPE ALL SHOPS ONCE A WEEK
+
+- TO SCRAPE
+	~ MAKE SURE YOU HAVE THE SOFTWARE REQUIREMENTS
+	~ UNDER PYTHON FOLDER
+	~ SCRAPE EACH SHOP BY
+		-py thewarehouse.py > result.txt
+
+		- result.txt IS JUST PRODUCT THAT WILL BE ADDED TO THE DATABASE OR EDITED
+		- SCRAPING WILL AUTOMATICALLY ADD THESE PRODUCTS TO THE DATABASE

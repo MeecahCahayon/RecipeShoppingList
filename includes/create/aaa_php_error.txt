@@ -1,0 +1,15 @@
+[30-Sep-2021 15:37:34 Europe/Berlin] PHP Warning:  require_once(../../dbconnect.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addIngr.php on line 10
+[30-Sep-2021 15:37:34 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../../dbconnect.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addIngr.php on line 10
+[30-Sep-2021 16:33:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'meecah-Pork Adobo (Marilyn Version)-Bayleaves' for key 'PRIMARY' in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addIngr.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addIngr.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addIngr.php on line 24
+[30-Sep-2021 16:33:57 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'meecah-Pork Adobo (Marilyn Version)-Bayleaves' for key 'PRIMARY' in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addIngr.php:24
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addIngr.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addIngr.php on line 24
+[01-Oct-2021 14:23:22 Europe/Berlin] PHP Warning:  Use of undefined constant StepNum - assumed 'StepNum' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addStep.php on line 39
+[01-Oct-2021 14:23:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\addStep.php on line 39
+[13-Oct-2021 17:44:19 Europe/Berlin] PHP Notice:  Undefined index: recipeName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\unsetOnMenu.php on line 14

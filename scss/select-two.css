@@ -1,0 +1,133 @@
+/**************************** ALL PAGE **************************/
+/*						  										*/
+/****************************************************************/
+/***************************** IMPORTS **************************/
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/**************************** VARIABLES *************************/
+/* PALETTE */
+/* BACKGROUNDS */
+/* FONT COLOUR */
+/* FONT DESIGN */
+/* SELECT2 - MAIN CONTAINER (BOTH MULTIPLE AND SINGLE) */
+.select2 {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  margin: 1vh 25px; }
+
+/* SELECT2 - INPUT CONTAINER (BOTH MULTIPLE AND SINGLE) */
+.select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single {
+  /* COLOURS */
+  background-color: #282923;
+  /* FONTS */
+  /* STYLE */
+  border: 0.5px solid #d8d8d8;
+  border-radius: 10px;
+  height: 40px;
+  padding: 0; }
+
+/* SELECT2 - SEARCH FIELD (ONLY SINGLE) */
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  /* COLOURS */
+  background-color: #282923;
+  color: #ffdae0;
+  /* FONTS */
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 1px;
+  font-size: 1.50vh;
+  font-weight: 400;
+  /* STYLE */
+  border: 0.5px solid #d8d8d8;
+  border-radius: 10px;
+  height: 35px; }
+
+/* SELECT2 - INPUT CONTAINER - WHEN FOCUS (ONLY MULTIPLE) */
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  border: 0.5px solid #ffdae0; }
+
+/* SELECT2 - INPUT TEXT */
+.select2-container--default .select2-search--inline .select2-search__field, .select2-container--default .select2-selection--single .select2-selection__rendered {
+  /* COLOURS */
+  color: #ffdae0;
+  /* FONTS */
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 1px;
+  font-size: 1.50vh;
+  font-weight: 400;
+  /* STYLE */
+  text-decoration: none;
+  margin: 1% 2%; }
+
+/* SELECT2 - OPTIONS CONTAINER */
+.select2-dropdown {
+  /* COLOURS */
+  background-color: #181915;
+  /* FONTS */
+  /* STYLE */
+  border: 0.5px solid #d8d8d8;
+  border-radius: 10px; }
+
+/* SELECT2 - OPTION TEXT */
+.select2-results__option {
+  /* COLOURS */
+  /* FONTS */
+  font-size: 1.2vh;
+  letter-spacing: 1px;
+  /* STYLE */
+  height: 45px;
+  padding: 5px; }
+
+/* SELECT2 - OPTION HIGHLIGHTED */
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  /* COLOURS */
+  background-color: #ffdae0;
+  color: #ff284d;
+  /* FONTS */
+  font-size: 1.5vh;
+  font-weight: 600;
+  /* STYLE */
+  height: 45px;
+  padding: 5px; }
+
+/* SELECT2 - SELECTED OPTIONS CONTAINER */
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  /* COLOURS */
+  background-color: #ffdae0;
+  color: #ff748c;
+  /* FONTS */
+  font-size: 1.6vh;
+  font-weight: 600;
+  /* STYLE */
+  padding: .5% 1% .5% 6%;
+  margin: 5px; }
+
+/* SELECT2 - SELECTED OPTIONS REMOVE BUTTON */
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  /* COLOURS */
+  background-color: #282923;
+  color: #ff748c;
+  /* FONTS */
+  font-size: 1.6vh;
+  font-weight: 600;
+  /* STYLE */
+  border-right: 1px solid #282923;
+  border-radius: 0;
+  margin: 0;
+  padding: 4px; }
+
+/* SELECT2 - OPTION SELECTED */
+.select2-container--default .select2-results__option--selected {
+  /* COLOURS */
+  background-color: #282923;
+  color: #ff748c;
+  /* FONTS */
+  /* STYLE */ }
+
+/*# sourceMappingURL=select-two.css.map */

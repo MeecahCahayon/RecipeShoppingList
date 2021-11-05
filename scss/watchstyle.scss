@@ -1,0 +1,69 @@
+/************************ DASHBOARD PAGE ************************/
+/*						  										*/
+/****************************************************************/
+/**************************** VARIABLES *************************/
+
+/* PALETTE */
+$palette-light-grey: #d8d8d8;
+
+/* BACKGROUNDS */
+$clr-main-bk-border: $palette-light-grey;
+
+/* FONT COLOUR */
+
+/************************** GRID TEMPLATE ***********************/
+/*						IF NOT USING DEFAULT					*/
+/****************************************************************/
+/************************** MAIN SECTIONS ***********************/
+#mainGrid { grid-template-columns: 1fr 2fr 1fr; grid-gap: 5px; }
+#mainGrid { grid-template-rows: auto auto 1fr; }
+#watchHeadingGrid, #watchSearchGrid, #watchListGrid { 
+	
+	grid-column: 2/3;
+	padding: 2vh;
+
+}
+#watchHeadingGrid { grid-row: 1/2;}
+#watchSearchGrid { grid-row: 2/3; }
+#watchListGrid { grid-row: 3/4;}
+
+/************************** MINI SECTIONS ***********************/
+
+/************************** MAIN CONTENT ************************/
+/*						  										*/
+/****************************************************************/
+/************************** OVERALL STYLE ***********************/
+
+#onwatchselect {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	padding: 15px 0;
+}
+
+#watchSearchField {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	width: 65%;
+}
+
+/**************************** THE LISTS *************************/
+
+.userlists {
+
+	/* COLOURS */
+	/* FONTS */
+	font-size: small;
+	/* STYLE */
+}
+
+#onwatchlist {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	padding: 15px 0;
+}

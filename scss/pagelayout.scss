@@ -1,6 +1,14 @@
-/************************** ALL PAGE **************************/
+/**************************** ALL PAGE **************************/
+/*						  										*/
+/****************************************************************/
+/***************************** IMPORTS **************************/
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/*********  VARIABLES  *********/
+/**************************** VARIABLES *************************/
 
 /* PALETTE */
 $palette-white-color: #ffffff;
@@ -14,26 +22,159 @@ $palette-lighter-pink: #ffdae0;
 $palette-pink: #ff748c;
 $palette-darker-pink: #ff284d;
 
+$palette-pns-color: #ffd436;
+
 /* BACKGROUNDS */
 $clr-main-bk-body: $palette-dark-grey;
 $clr-main-bk-head: $palette-darker-grey;
 $clr-main-bk-btn: $palette-dark-grey;
+$clr-main-bk-input: $palette-dark-grey;
 $clr-main-bk-border: $palette-light-grey;
+$clr-main-bk-placeholder: $palette-lighter-pink;
 
-/* FONT */
+/* FONT COLOUR */
 $clr-main-font-body: $palette-lighter-pink;
 $clr-main-font-head: $palette-pink;
 $clr-main-font-btn: $palette-lighter-pink;
+$clr-main-font-input: $palette-lighter-pink;
 $clr-main-font-warning: $palette-darker-pink;
+$clr-main-font-placeholder: $palette-dark-grey;
+$clr-main-font-delete_icon: $palette-pink;
 
-/* FONTS */
+/* FONT DESIGN */
+$fnt-bungee: 'Bungee', cursive;;
 $fnt-bungee-outline: 'Bungee Outline', cursive;
 $fnt-bungee-inline: 'Bungee Inline', cursive;
 $fnt-bungee-hairline: 'Bungee Hairline', cursive;
 $fnt-josefinslab: 'Josefin Slab', serif;
 
+/************************** GRID TEMPLATE ***********************/
+/*						  										*/
+/****************************************************************/
+/************************* THE OUTER - ROW **********************/
 
-/*********  OVERALL STYLE  *********/
+.outerDiv {
+
+	display: grid;
+	grid-template-rows: auto 1fr auto; 
+	grid-gap: 5px; 
+	height: 100vh;
+}
+
+#headerGrid {
+	
+	grid-row: 1/2;
+	background-color: $clr-main-bk-head;
+}
+
+#mainGrid { grid-row: 2/3; }
+
+#footerGrid {
+
+	grid-row: 3/4; 
+	background-color: $clr-main-bk-body;
+}
+
+/*********************** THE INNER - COLUMNS ********************/
+.outerGrids {
+
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-column: 1/4;
+	grid-gap: 5px;
+}
+
+/************************** MAIN SECTIONS ***********************/
+
+#headerGrid { grid-template-rows: auto auto; }
+#headingGrid, #mainMenuBtnGrid { grid-column: 2/3; }
+
+#footGrid { grid-column: 2/3; }
+
+/************************** MINI SECTIONS ***********************/
+/* LIST WITH LIST AND PICKS */
+.comparelist {
+
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	margin: 20px;
+
+	.userpicks {
+
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin: 5px 15px;
+	}
+
+	.eachpicks {
+
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+		border: 0.5px solid $clr-main-bk-border;
+		border-radius: 15px;
+
+		margin: 0 10px;
+
+		img {
+			/* COLOURS */
+			/* FONTS */
+			/* STYLE */
+			border: 0.5px solid $clr-main-bk-border;
+			border-radius: 10px;
+			padding: 8px 10px;
+			width: 100px;
+
+		}
+
+		p {
+			/* COLOURS */
+			/* FONTS */
+			/* STYLE */
+			margin: 0;
+
+		}
+	}
+
+	.img-logo { margin: .5vh; }
+}
+.userlists { grid-column: 1/2; }
+.userpicks { grid-column: 2/3; }
+
+/* LIST WITH ICONS */
+.userlists {
+
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	margin: 5px 15px;	
+
+	p {
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+		margin: 0 10px;
+		text-align: left;
+	}
+
+	section {
+
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+		text-align: right;
+	}
+}
+.faIcon { grid-column: 1/2; }
+.listname { grid-column: 2/3; }
+
+
+/************************** OVERALL STYLE ***********************/
+/*						  										*/
+/****************************************************************/
 
 body {
 
@@ -52,24 +193,6 @@ body {
 	margin: 0;
 }
 
-/*********  GRID TEMPLATE  *********/
-
-.outerDiv, .outerGrids { display: grid; }
-/*.outerGrids { border: solid 3px white; }*/
-/*.innerGrids { border: solid 3px white; }*/
-
-/* GRID THE PAGE - ROWS */
-#pageOuterDiv{ grid-template-rows: auto 1fr auto; grid-gap: 5px; height: 100vh }
-
-/* GRID THE MAIN SECTIONS - COLUMN - DEFAULT*/
-#headerGrid, #footerGrid, #mainGrid { grid-template-columns: 1fr 3fr 1fr; grid-gap: 5px; }
-#headerGrid { grid-template-rows: auto auto; }
-
-/*********  HEADER SECTION PAGE GRID  *********/
-
-#headerGrid { grid-column: 1/4;  background-color: $clr-main-bk-head; }
-#headingGrid, #mainMenuBtnGrid { grid-column: 2/3; }
-
 #headingCont {
 
 	/* COLOURS */
@@ -85,20 +208,11 @@ body {
 }
 
 #mainMenuBtnCont {
-	p {
 
-		/* COLOURS */
-		color: $clr-main-font-body;
-
-		/* FONTS */
-		font-size: large;
+	.inlinemenu {
 
 		/* STYLE */
 		display: inline-block;
-		text-decoration: none;
-		padding: 0 2vh;
-		margin: 0;
-		cursor: pointer;
 
 		&:hover {
 
@@ -112,16 +226,30 @@ body {
 			opacity: 0.5;
 		}
 	}
+
+	p {
+
+		/* COLOURS */
+		color: $clr-main-font-body;
+
+		/* FONTS */
+		font-size: large;
+
+		/* STYLE */
+		text-decoration: none;
+		padding: 0 2vh;
+		margin: 0;
+		cursor: pointer;
+	}
+
+	section {
+
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+		display: inline-block;
+	}
 }
-
-/*********  MAIN SECTION PAGE GRID  *********/
-
-#mainGrid { grid-column: 1/4; }
-
-/*********  FOOTER SECTION PAGE GRID  *********/
-
-#footerGrid { grid-column: 1/4; background-color: $clr-main-bk-body; }
-#footGrid { grid-column: 1/4; }
 
 #footerCont {
 
@@ -137,9 +265,10 @@ body {
 	text-align: center;
 }
 
-/*********  FUNCTIONS  *********/
+/****************************** MENU ****************************/
+/*						  										*/
+/****************************************************************/
 
-/* MENU */
 .activepage {
 
 	/* COLOURS */
@@ -151,10 +280,82 @@ body {
 	border-radius: 10px 10px 0 0;
 }
 
-/* PAGE/FORM HEADING (SECOND HEADING) */
+/* DROPDOWN MENU */
+.dropdown-content:before {
 
-/* PAGE HEADING */
-.secondHeadingPage, .secondHeadingForm {
+	/* COLOURS */
+	border-color: transparent transparent $clr-main-bk-head transparent;
+
+	/* FONTS */
+	/* STYLE */
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+
+	content:"";
+	position: absolute;
+	left: 30px;
+	top: -10px;
+	z-index:9999;
+}
+
+.dropdown-content:after {
+
+	/* COLOURS */
+	border-color: transparent transparent $clr-main-bk-border transparent;
+
+	/* FONTS */
+	/* STYLE */
+	border-style: solid;
+	border-width: 0 13px 13px 13px;
+
+	content:"";
+	position: absolute;
+	left: 27px;
+	top: -13px;
+	z-index:9998;
+}
+
+.dropdown-content {
+
+	/* COLOURS */
+	background-color: $clr-main-bk-head;
+
+	/* FONTS */
+	/* STYLE */
+	display: none;
+	position: absolute;
+
+	border: 2px solid $clr-main-bk-border;
+	border-radius: 20px;
+	margin: 15px 0;
+	padding: 10px;
+	float: left;
+	z-index: 99999;
+
+	p {
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+
+		&:hover {
+
+			/* COLOURS */
+			background-color: $clr-main-bk-body;
+
+			/* FONTS */
+
+			/* STYLE */
+			opacity: 0.5;
+		}
+	}
+
+}
+
+/**************************** HEADINGS **************************/
+/*						  										*/
+/****************************************************************/
+
+.secondHeading {
 
 	/* COLOURS */
 
@@ -174,7 +375,7 @@ body {
 
 }
 
-.secondHeadingForm {
+.form2ndHeading {
 
 	/* COLOURS */
 
@@ -184,6 +385,52 @@ body {
 	/* STYLE */
 }
 
+.thirdHeading {
+
+	/* COLOURS */
+
+	/* FONTS */
+	font-family: $fnt-bungee;
+	font-size: medium;
+	font-weight: 100;
+
+	/* STYLE */
+
+	p {
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+		margin: 0;
+	}
+}
+
+.placeholder {
+
+	/* COLOURS */
+	background-color: $clr-main-bk-placeholder;
+	color: $clr-main-font-placeholder;
+
+	/* FONTS */
+	font-size: .6vw;
+
+	/* STYLE */
+	border: 0.5px solid $clr-main-bk-border;
+	border-radius: 20px;
+	width: 50%;
+	margin: 0 25px;
+
+	p {
+		/* COLOURS */
+		/* FONTS */
+		font-weight: 800;
+
+		/* STYLE */
+		padding: 2px 10px;
+		margin: 0;
+	}
+}
+
+/* WARNINGS - SUCCESS MSGS - NOTES */
 .subtitle {
 
 	/* COLOURS */
@@ -193,13 +440,11 @@ body {
 
 	/* STYLE */
 
-	p {
-		margin: 0;
-	}
+	p { margin: 0; }
 }
 
-/* WARNINGS */
 .warningSec {
+
 	/* COLOURS */
 	color: $clr-main-font-warning;
 
@@ -209,9 +454,7 @@ body {
 	/* STYLE */
 	text-transform: uppercase;
 
-	p {
-		margin: 0;
-	}
+	p { margin: 0; }
 }
 
 .successMsg{
@@ -220,7 +463,10 @@ body {
 	color: $clr-main-font-head;
 }
 
-/* BUTTON */
+/**************************** FUNCTIONS *************************/
+/*						  										*/
+/****************************************************************/
+/***************************** BUTTONS **************************/
 
 button {
 
@@ -237,7 +483,7 @@ button {
 	/* STYLE */
 	text-decoration: none;
 	border-radius: 30px;
-	padding: .3vh 2vw;
+	padding: .1vh 1vw;
 	margin: .5vh;
 	cursor: pointer;
 
@@ -252,14 +498,34 @@ button {
 
 }
 
-/* INPUTS */
-
-.loginInput, .searchInput, .formInput {
+.faIcon {
 
 	/* COLOURS */
-	color: $clr-main-font-btn;
-	background-color: $clr-main-bk-btn;
-	border-color: $clr-main-bk-border;
+	color: $clr-main-font-delete_icon;
+
+	/* FONTS */
+
+	/* STYLE */
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.recipe {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	cursor: pointer;
+}
+
+/***************************** INPUTS ***************************/
+
+/*.loginInput, .searchInput, .formInput, .addStepInput {*/
+.userinputs {
+
+	/* COLOURS */
+	color: $clr-main-font-input;
+	background-color: $clr-main-bk-input;
 
 	/* FONTS */
 	font-family: $fnt-josefinslab;
@@ -269,19 +535,16 @@ button {
 
 	/* STYLE */
 	text-decoration: none;
-	border: 0.5px solid;
+	border: 0.5px solid $clr-main-bk-border;
 	border-radius: 30px;
 	padding: 0.9vh 2vw;
 	margin: 2% 0%;
 	width: 50%;
 }
 
-/* FORMS */
+.searchinput { text-align: right; }
 
-.formLbl {
-	margin: 2% 2%;
-}
+/****************************** FORMS ***************************/
 
-#formButton {
-	margin: 5% 0% 0 0;
-}
+.formLbl { margin: 2% 2%; }
+.formButtonCont { margin: 5% 0% 0 0; }

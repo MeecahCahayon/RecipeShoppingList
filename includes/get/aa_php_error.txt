@@ -14,3 +14,189 @@
 [13-Aug-2021 13:40:57 Europe/Berlin] PHP Notice:  Undefined index: user in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 17
 [13-Aug-2021 14:50:24 Europe/Berlin] PHP Notice:  Undefined index: user in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 17
 [13-Aug-2021 14:50:36 Europe/Berlin] PHP Notice:  Undefined index: user in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\recipe.php on line 17
+[22-Aug-2021 12:58:25 Europe/Berlin] PHP Warning:  Creating default object from empty value in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php on line 23
+[22-Aug-2021 13:00:06 Europe/Berlin] PHP Warning:  Creating default object from empty value in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php on line 32
+[22-Aug-2021 13:00:48 Europe/Berlin] PHP Warning:  Creating default object from empty value in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php on line 32
+[22-Aug-2021 13:03:58 Europe/Berlin] PHP Warning:  Attempt to assign property 'type' of non-object in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php on line 25
+[30-Sep-2021 04:54:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'foodpricespy.recipes' doesn't exist in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php:29
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php on line 29
+[30-Sep-2021 04:54:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'foodpricespy.recipes' doesn't exist in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php:29
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php on line 29
+[30-Sep-2021 04:55:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'foodpricespy.recipes' doesn't exist in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php:29
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allRecipe.php on line 29
+[30-Sep-2021 05:42:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 05:45:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 05:50:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 05:52:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 05:53:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 05:54:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 05:54:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 05:55:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 11:33:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 12:45:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 12:49:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[30-Sep-2021 12:50:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND BINARY `Username` = 'meecah'' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allIngr.php on line 20
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:29 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[05-Oct-2021 19:33:30 Europe/Berlin] PHP Notice:  Undefined index: shopclass in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\allShopProducts.php on line 14
+[13-Oct-2021 18:38:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OnMenu' in 'where clause' in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\onWatchProd.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\onWatchProd.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\onWatchProd.php on line 20
+[13-Oct-2021 18:40:01 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OnMenu' in 'where clause' in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\onWatchProd.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\onWatchProd.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\onWatchProd.php on line 20
+[13-Oct-2021 19:52:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS 'numofshop' FROM `shop`' at line 1 in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shops.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shops.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shops.php on line 16
+[14-Oct-2021 03:38:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shopprod.php on line 33
+[14-Oct-2021 03:38:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shopprod.php on line 33
+[14-Oct-2021 03:38:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shopprod.php on line 33
+[14-Oct-2021 03:38:18 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shopprod.php on line 33
+[14-Oct-2021 05:34:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\corringrs.php:45
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\corringrs.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\corringrs.php on line 45
+[14-Oct-2021 09:29:36 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 09:32:01 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 09:33:26 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 10:05:20 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 10:05:20 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 10:06:00 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 10:06:00 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 10:14:40 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 10:14:40 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 11:00:51 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 11:01:02 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 11:02:28 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 11:02:34 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 11:05:03 Europe/Berlin] PHP Notice:  Undefined index: ingrarray in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 15
+[14-Oct-2021 11:09:23 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 11:49:01 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:28:59 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:33:03 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:33:07 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:33:10 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:33:13 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:33:16 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:35:07 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:43:39 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:51:54 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:51:58 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:52:19 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 12:53:04 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 13:22:06 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 13:22:51 Europe/Berlin] PHP Notice:  Undefined index: selectid in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\all_useringr.php on line 14
+[14-Oct-2021 15:54:20 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 24
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Undefined variable: resresult in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 26
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 26
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Undefined variable: resresult in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 27
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 27
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Undefined variable: resresult in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 26
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 26
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Undefined variable: resresult in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 27
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 27
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Undefined index: ShopID in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 57
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Undefined index: ShopName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 58
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Undefined index: ShopID in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 57
+[14-Oct-2021 16:05:17 Europe/Berlin] PHP Notice:  Undefined index: ShopName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 58
+[14-Oct-2021 16:05:45 Europe/Berlin] PHP Notice:  Undefined index: ShopID in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 57
+[14-Oct-2021 16:05:45 Europe/Berlin] PHP Notice:  Undefined index: ShopName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 58
+[14-Oct-2021 16:05:45 Europe/Berlin] PHP Notice:  Undefined index: ShopID in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 57
+[14-Oct-2021 16:05:45 Europe/Berlin] PHP Notice:  Undefined index: ShopName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 58
+[14-Oct-2021 16:05:48 Europe/Berlin] PHP Notice:  Undefined index: ShopID in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 57
+[14-Oct-2021 16:05:48 Europe/Berlin] PHP Notice:  Undefined index: ShopName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 58
+[14-Oct-2021 16:05:48 Europe/Berlin] PHP Notice:  Undefined index: ShopID in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 57
+[14-Oct-2021 16:05:48 Europe/Berlin] PHP Notice:  Undefined index: ShopName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\shop_products.php on line 58

@@ -1,0 +1,127 @@
+/*********************** FULL RECIPE PAGE ***********************/
+/*						  										*/
+/****************************************************************/
+/**************************** VARIABLES *************************/
+/* PALETTE */
+/* BACKGROUNDS */
+/* FONT COLOUR */
+/************************** GRID TEMPLATE ***********************/
+/*						IF NOT USING DEFAULT					*/
+/****************************************************************/
+/************************** MAIN SECTIONS ***********************/
+#headerGrid {
+  grid-template-rows: auto auto; }
+
+#mainGrid {
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 5px; }
+
+#mainGrid {
+  grid-template-rows: auto auto; }
+
+/* MAIN CONTENT */
+#fulldishHeadingGrid, #recipeGrid {
+  grid-column: 2/3;
+  padding: 2vh; }
+
+#fulldishHeadingGrid {
+  grid-row: 1/2; }
+
+#recipeGrid {
+  grid-row: 2/3; }
+
+/************************** MAIN CONTENT ************************/
+/*						  										*/
+/****************************************************************/
+/************************** OVERALL STYLE ***********************/
+/* MAIN CONTAINER */
+#recipeGrid {
+  /* COLOURS */
+  /* FONTS */
+  text-align: left;
+  /* STYLE */ }
+
+.fullrecipeContent {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  margin: 10px 0; }
+
+/* ADDING STEP CONTAINER */
+#addStepDiv {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  text-align: left; }
+  #addStepDiv button {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    font-size: x-small;
+    margin: 5px; }
+
+/**************************** THE LISTS *************************/
+#ingrList {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  column-count: 2;
+  column-gap: 20%;
+  min-height: 25px;
+  padding: 15px 0; }
+
+#stepList {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  min-height: 25px;
+  padding: 15px 0; }
+  #stepList ol {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    /*margin: 0;*/
+    padding: 0; }
+
+.userlists {
+  /* COLOURS */
+  /* FONTS */
+  font-size: small;
+  /* STYLE */
+  display: flex;
+  justify-content: flex-start; }
+  .userlists li {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    margin: 0 30px;
+    height: 1%; }
+  .userlists ::marker {
+    /* COLOURS */
+    color: #ff748c;
+    /* FONTS */
+    /* STYLE */ }
+
+/***************************** INPUTS ***************************/
+#addIngrInput {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  width: 58%; }
+
+#addstepField {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  width: 50%;
+  margin: 5px 25px; }
+
+.editablestep {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  border: 0.5px solid #d8d8d8;
+  border-radius: 15px;
+  padding: 2px 20px; }
+
+/*# sourceMappingURL=fullrecipestyle.css.map */

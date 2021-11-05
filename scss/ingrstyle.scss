@@ -1,0 +1,104 @@
+/************************** INGR PAGE ***************************/
+/*						  										*/
+/****************************************************************/
+/**************************** VARIABLES *************************/
+
+/* PALETTE */
+$palette-light-grey: #d8d8d8;
+$palette-pink: #ff748c;
+
+/* BACKGROUNDS */
+$clr-main-bk-border: $palette-light-grey;
+
+/* FONT COLOUR */
+
+/************************** GRID TEMPLATE ***********************/
+/*						IF NOT USING DEFAULT					*/
+/****************************************************************/
+/************************** MAIN SECTIONS ***********************/
+#headerGrid { grid-template-rows: auto auto; }
+
+#mainGrid { grid-template-columns: 0.5fr 10fr 0.5fr; grid-gap: 5px; }
+#mainGrid { grid-template-rows: auto auto 1fr auto;}
+#ingrHeadingGrid, #ingrSearchGrid, #ingrListGrid, #ingrBtnGrid { 
+	
+	grid-column: 2/3;
+	padding: 2vh;
+
+}
+#ingrHeadingGrid { grid-row: 1/2; }
+#ingrSearchGrid { grid-row: 2/3; }
+#ingrListGrid { grid-row: 3/4; }
+#ingrBtnGrid { grid-row: 4/5; }
+
+/************************** MINI SECTIONS ***********************/
+
+.comparelist {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	grid-template-columns: 1fr 4fr;
+
+}
+
+/************************** MAIN CONTENT ************************/
+/*						  										*/
+/****************************************************************/
+/************************* EACH USER INGR ***********************/
+.userlists {
+
+	/* COLOURS */
+	/* FONTS */
+	font-size: medium;
+	/* STYLE */
+}
+
+/* EACH SHOP CONTAINER */
+.usrselection {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	display: flex;
+	justify-content: center;
+
+	img {
+		/* COLOURS */
+		/* FONTS */
+		/* STYLE */
+		border: 0.5px solid $clr-main-bk-border;
+		border-radius: 15px;
+		padding: 8px 10px;
+		width: 100px;
+
+	}
+
+	select {
+		width: 25vw;
+	}
+}
+
+.img-logo, .select2 { margin: .5vh; }
+
+/***************************** INPUTS ***************************/
+
+.selectUsrPick {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	width: 70%;
+}
+
+/* SELECT2 - OPTION HIGHLIGHTED */
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
+
+	/* COLOURS */
+
+	/* FONTS */
+	font-size: 1.2vh;
+	font-weight: 600;
+
+	/* STYLE */
+}

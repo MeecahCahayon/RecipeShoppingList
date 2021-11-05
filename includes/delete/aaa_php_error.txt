@@ -1,0 +1,243 @@
+[30-Sep-2021 15:54:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function encodeURI() in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteIngr.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteIngr.php on line 26
+[30-Sep-2021 15:55:32 Europe/Berlin] PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteIngr.php on line 27
+[30-Sep-2021 15:55:32 Europe/Berlin] PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteIngr.php on line 27
+[01-Oct-2021 07:30:47 Europe/Berlin] PHP Notice:  Undefined index: ingrName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteIngr.php on line 15
+[01-Oct-2021 07:30:50 Europe/Berlin] PHP Notice:  Undefined index: ingrName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteIngr.php on line 15
+[01-Oct-2021 07:36:01 Europe/Berlin] PHP Notice:  Undefined index: ingrName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteIngr.php on line 15
+[02-Oct-2021 06:39:51 Europe/Berlin] PHP Notice:  Undefined index: stepnumber in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteStep.php on line 15
+[02-Oct-2021 06:43:38 Europe/Berlin] PHP Notice:  Undefined index: stepnumber in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteStep.php on line 15
+[06-Oct-2021 11:06:48 Europe/Berlin] PHP Notice:  Undefined index: recipeName in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteStep.php on line 14
+[06-Oct-2021 11:06:48 Europe/Berlin] PHP Notice:  Undefined index: stepnumber in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteStep.php on line 15
+[06-Oct-2021 11:12:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:22
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 22
+[06-Oct-2021 13:00:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(25): PDOStatement->fetch()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 25
+[06-Oct-2021 13:04:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(25): PDOStatement->fetch()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 25
+[06-Oct-2021 13:08:49 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 27
+[06-Oct-2021 13:08:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(25): PDOStatement->fetch()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 25
+[06-Oct-2021 13:09:44 Europe/Berlin] PHP Notice:  Undefined variable: response in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 27
+[06-Oct-2021 13:09:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(25): PDOStatement->fetch()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 25
+[06-Oct-2021 13:10:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(25): PDOStatement->fetch()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 25
+[06-Oct-2021 13:25:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:26:47 Europe/Berlin] PHP Notice:  Undefined index: Username in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 42
+[06-Oct-2021 13:26:47 Europe/Berlin] PHP Notice:  Undefined index: Username in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 42
+[06-Oct-2021 13:29:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:29:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:30:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:31:01 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:31:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 13:38:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 14:00:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_Username` FOREIGN KEY (`Username`) REFERENCES `useringr` (`Username`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 14:07:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_Username` FOREIGN KEY (`Username`) REFERENCES `useringr` (`Username`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 14:10:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 14:12:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[06-Oct-2021 14:13:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`recipehasingr`, CONSTRAINT `FK_RecipeHasIngr_UserIngrName` FOREIGN KEY (`UserIngrName`) REFERENCES `useringr` (`UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[09-Oct-2021 12:39:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[09-Oct-2021 12:42:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:59
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 59
+[09-Oct-2021 12:50:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:97
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(97): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 97
+[09-Oct-2021 12:52:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:97
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(97): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 97
+[09-Oct-2021 12:54:48 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 78
+[09-Oct-2021 12:54:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:99
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 99
+[09-Oct-2021 12:55:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:99
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 99
+[09-Oct-2021 12:59:23 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:97
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(97): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 97
+[09-Oct-2021 13:00:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:99
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 99
+[09-Oct-2021 13:01:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:100
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(100): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 100
+[09-Oct-2021 13:03:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:99
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 99
+[09-Oct-2021 13:04:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php:99
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\delete\deleteUsrIngr.php on line 99

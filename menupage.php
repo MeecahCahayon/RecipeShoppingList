@@ -26,19 +26,25 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 		
+		<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="scss/pagelayout.css">
-		<link rel="stylesheet" type="text/css" href="scss/specialstyle.css">
+		<link rel="stylesheet" type="text/css" href="scss/select-two.css">
+		<link rel="stylesheet" type="text/css" href="scss/menustyle.css">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+		<script src="https://kit.fontawesome.com/61bf2e2ad1.js" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/mainscript.js"></script>
-		<!-- <script type="text/javascript" src="js/processlogin.js"></script> -->
+		<script type="text/javascript" src="js/menuscript.js"></script>
 	</head>
 
-	<body>
+	<body onload="prep_menu_page()">
 		<div class="outerDiv" id="pageOuterDiv">
 			<!-- HEADER -->
 			<section class="outerGrids" id="headerGrid">
@@ -53,11 +59,20 @@
 				<!-- MAIN MENU BUTTON -->
 				<section class="innerGrids" id="mainMenuBtnGrid">
 					<div id="mainMenuBtnCont">
-						<p id="listpage"  onclick="gotopage('listpage')"> List </p>
-						<p id="specialpage" onclick="gotopage('specialpage')" class="activepage"> Special </p>
-						<p id="recipepage" onclick="gotopage('recipepage')"> Recipes </p>
-						<p id="shoppage" onclick="gotopage('shoppage')"> Shops </p>
-						<p onclick="checklogout()"> Logout </p>
+						<section class="dropdownContainer">
+							<p class="inlinemenu activepage"> Listing </p>
+
+							<div class="dropdown-content">
+								<p onclick="gotopage('watchpage')"> On Watch List </p>
+								<p onclick="gotopage('dishpage')"> On Menu List </p>
+								<p onclick="gotopage('grocerypage')"> Grocery List </p>
+							</div>
+						</section>
+						
+						<p class="inlinemenu" onclick="gotopage('ingrpage')"> Ingrs </p>
+						<p class="inlinemenu" onclick="gotopage('recipepage')"> Recipes </p>
+						<!-- <p id="shoppage" class="inlinemenu" onclick="gotopage('shoppage')"> Shops </p> -->
+						<p class="inlinemenu" onclick="checklogout()"> Logout </p>
 					</div>
 				</section>
 			</section>
@@ -65,19 +80,33 @@
 			<!-- MAIN -->
 			<section class="outerGrids" id="mainGrid">
 
-				<!-- LOOKOUT SPECIAL -->
-				<section class="innerGrids" id="lookoutspcGrid">
-					<div id="lookoutspcContent">
-						Look out Special
+				<!-- ON MENU HEADING -->
+				<section class="innerGrids" id="menuHeadingGrid">
+					<div id="menuHeadingContent">
+						<div class="secondHeading">
+							<p> My Weekly Dish </p>
+						</div>
+						<div class="subtitle">
+							<p> Select What dish you want to make for the week </p>
+						</div>
 					</div>
 				</section>
 
-				<!-- SHOP SPECIAL -->
-				<section class="innerGrids" id="shopspcGrid">
-					<div id="shopspcContent">
-						Shop List
+				<!-- ON MENU SELECT -->
+				<section class="innerGrids" id="menuSearchGrid">
+					<div id="menuSearchCont">
+						<select class="userinputs" id="menuSearchField">
+							<option></option>
+						</select>
 					</div>
 				</section>
+
+				<!-- ON MENU LIST -->
+				<section class="innerGrids" id="menuListGrid">
+					<div id="menuListCont">
+					</div>
+				</section>
+
 			</section>
 
 			<!-- FOOTER -->

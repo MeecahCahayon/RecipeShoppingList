@@ -1,0 +1,90 @@
+[28-Sep-2021 11:37:38 Europe/Berlin] PHP Notice:  Undefined index: recipeLinkField in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\recipe.php on line 13
+[28-Sep-2021 11:37:44 Europe/Berlin] PHP Notice:  Undefined index: recipeLinkField in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\recipe.php on line 13
+[28-Sep-2021 11:38:54 Europe/Berlin] PHP Notice:  Undefined index: recipeLinkField in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\recipe.php on line 13
+[28-Sep-2021 11:41:58 Europe/Berlin] PHP Notice:  Undefined index: recipeLinkField in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\recipe.php on line 13
+[28-Sep-2021 11:44:17 Europe/Berlin] PHP Notice:  Undefined index: recipeLinkField in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\recipe.php on line 13
+[28-Sep-2021 11:44:51 Europe/Berlin] PHP Notice:  Undefined index: recipeLinkField in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\recipe.php on line 13
+[06-Oct-2021 16:52:17 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 29
+[06-Oct-2021 16:53:43 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 30
+[06-Oct-2021 16:55:16 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 31
+[06-Oct-2021 16:55:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_ShopIngr` FOREIGN KEY (`ShopID`, `ShopIngrID`) REFERENCES `shopingr` (`ShopID`, `ShopIngrID`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:49
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(49): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 49
+[06-Oct-2021 16:56:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_ShopIngr` FOREIGN KEY (`ShopID`, `ShopIngrID`) REFERENCES `shopingr` (`ShopID`, `ShopIngrID`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:49
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(49): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 49
+[06-Oct-2021 17:12:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_ShopIngr` FOREIGN KEY (`ShopID`, `ShopIngrID`) REFERENCES `shopingr` (`ShopID`, `ShopIngrID`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:49
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(49): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 49
+[06-Oct-2021 17:17:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_ShopIngr` FOREIGN KEY (`ShopID`, `ShopIngrID`) REFERENCES `shopingr` (`ShopID`, `ShopIngrID`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:50
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(50): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 50
+[06-Oct-2021 17:35:13 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_ShopIngr` FOREIGN KEY (`ShopID`, `ShopIngrID`) REFERENCES `shopingr` (`ShopID`, `ShopIngrID`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:60
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(60): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 60
+[06-Oct-2021 17:36:03 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:60
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(60): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 60
+[06-Oct-2021 17:45:20 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 21
+[06-Oct-2021 17:45:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ShopID' cannot be null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:63
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(63): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 63
+[10-Oct-2021 17:03:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 39
+[10-Oct-2021 17:03:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 39
+[10-Oct-2021 17:04:28 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 39
+[10-Oct-2021 17:10:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 39
+[10-Oct-2021 17:15:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 39
+[10-Oct-2021 17:17:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 39
+[10-Oct-2021 17:20:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 39
+[10-Oct-2021 17:21:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`foodpricespy`.`corringr`, CONSTRAINT `FK_CorrIngr_UserIngr` FOREIGN KEY (`Username`, `UserIngrName`) REFERENCES `useringr` (`Username`, `UserIngrName`)) in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\corrIngr.php on line 39
+[14-Oct-2021 08:57:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sprite-meecah' for key 'PRIMARY' in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\ingr.php:21
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\ingr.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\create\ingr.php on line 21

@@ -1,29 +1,29 @@
 /************************** LOGIN PAGE **************************/
-
-/*********  VARIABLES  *********/
+/*						  										*/
+/****************************************************************/
+/**************************** VARIABLES *************************/
 
 /* PALETTE */
 $palette-light-grey: #d8d8d8;
 $palette-darker-grey: #181915;
-$palette-darker-pink: #ff284d;
 
 /* BACKGROUNDS */
 $clr-main-bk-form: $palette-darker-grey;
 $clr-main-bk-border: $palette-light-grey;
 
-/********* MAIN SECTIONS GRID - IF NOT USING DEFAULT *********/
-/* SETTING UP THE GRID OF MAIN SECTIONS - IF NOT USING DEFAULT */
+/* FONT COLOUR */
 
-
-/* MAIN SECTIONS */
+/************************** GRID TEMPLATE ***********************/
+/*						IF NOT USING DEFAULT					*/
+/****************************************************************/
+/************************** EACH SECTIONS ***********************/
 #headerGrid { grid-template-rows: auto; }
+
 #mainGrid {
 
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto;
 }
-
-/* MAIN CONTENT */
 #loginGrid { 
 
 	grid-column: 2/3;
@@ -31,7 +31,9 @@ $clr-main-bk-border: $palette-light-grey;
 
 }
 
-/********* MAIN CONTENT *********/
+/************************** MAIN CONTENT ************************/
+/*						  										*/
+/****************************************************************/
 
 #loginContent {
 
@@ -45,8 +47,12 @@ $clr-main-bk-border: $palette-light-grey;
 	padding: 3vh;
 }
 
+/***************************** BUTTONS **************************/
 
+button {
 
-
-
-
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	padding: .3vh 2vw;
+}

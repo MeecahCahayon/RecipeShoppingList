@@ -1,0 +1,41 @@
+/*************************** MENU PAGE **************************/
+/*						  										*/
+/****************************************************************/
+/**************************** VARIABLES *************************/
+
+/* PALETTE */
+/* BACKGROUNDS */
+/* FONT COLOUR */
+
+/************************** GRID TEMPLATE ***********************/
+/*						IF NOT USING DEFAULT					*/
+/****************************************************************/
+/************************** MAIN SECTIONS ***********************/
+#mainGrid { grid-template-columns: 1fr 2fr 1fr; grid-gap: 5px; }
+#mainGrid { grid-template-rows: auto auto 1fr; }
+#menuHeadingGrid, #menuSearchGrid, #menuListGrid { 
+	
+	grid-column: 2/3;
+	padding: 2vh;
+
+}
+#menuHeadingGrid { grid-row: 1/2;}
+#menuSearchGrid { grid-row: 2/3; }
+#menuListGrid { grid-row: 3/4;}
+
+/************************** MINI SECTIONS ***********************/
+
+/*.userlists { grid-template-columns: 0.5fr 3fr; }*/
+
+/************************** MAIN CONTENT ************************/
+/*						  										*/
+/****************************************************************/
+
+/***************************** INPUTS ***************************/
+#menuSearchField {
+
+	/* COLOURS */
+	/* FONTS */
+	/* STYLE */
+	width: 65%;
+}

@@ -10,7 +10,7 @@
 
 	if (isset($_SESSION["logged_in"])) 
 	{
-		header("location: dashboardpage.php");
+		header("location: watchpage.php");
 	}
 ?>
 
@@ -26,6 +26,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
@@ -35,6 +36,7 @@
 		<link rel="stylesheet" type="text/css" href="scss/popupform.css">
 		<link rel="stylesheet" type="text/css" href="scss/indexstyle.css">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/mainscript.js"></script>
 		<script type="text/javascript" src="js/indexscript.js"></script>
 	</head>
@@ -64,28 +66,29 @@
 						<!-- LOGIN FORM -->
 						<form method="POST" id="formSection" onsubmit="return false">
 							<label for="usrnameField" class="formLbl"> Username </label>
-							<input type="text" name="usrValue" class="loginInput" id="usrnameField" required>
+							<input type="text" name="usrValue" class="userinputs" id="usrnameField" required>
 							<br>
 
 							<label for="passField" class="formLbl"> Password </label>
-							<input type="password" name="newPassValue" class="loginInput" id="passField" required>
+							<input type="password" name="newPassValue" class="userinputs" id="passField" required>
 							<br>
 
-							<div id="formButton">
+							<div class="formButtonCont">
 								<button onclick="checklogin()" type="submit"> Log In </button>
 								<!-- type="button" IGNORES THE REQUIRED FIELD - AND REMOVES PREMATURE VALIDATION -->
-								<button onclick="showPopupForm('addAccountPopup')" type="button"> Create Account </button>
+								<button onclick="showPopupForm('#addAccountPopup')" type="button"> Create Account </button>
 							</div>
 						</form>
 					</div>
 				</section>
 
+				<!-- POPUP FORM -->
 				<section class="modal", id="addAccountPopup">
 					<!-- POPUP FORM FOR ADDING RECIPE -->
 					<form method="POST" class="modal-content animate" onsubmit="return false">
 						<div class="popupform">
 							<!-- HEADING SECTION -->
-							<section class="secondHeadingForm">
+							<section class="secondHeading form2ndHeading">
 								<p> Create a new Account </p>
 							</section>
 
@@ -95,18 +98,18 @@
 							<!-- THE FORM -->
 							<section class="popupContent">
 								<label for="newUNField" class="formLbl"> Username </label>
-								<input type="text" name="newUNValue" class="formInput" id="newUNField" placeholder="Enter a username" required>
+								<input type="text" name="newUNValue" class="userinputs" id="newUNField" placeholder="Enter a username" required>
 								<br>
 
 								<label for="newPassField" class="formLbl"> Password </label>
-								<input type="password" name="newPassValue" class="formInput" id="newPassField" placeholder="Enter a password" required>
+								<input type="password" name="newPassValue" class="userinputs" id="newPassField" placeholder="Enter a password" required>
 								<br>
 							</section>
 
 							<!-- BUTTONS -->
-							<section class="popupContent" id="formButton">
+							<section class="popupContent" clas="formButtonCont">
 								<button onclick="checkActInfo()" type="submit"> Create Account </button>
-								<button onclick="hidePopupForm('addAccountPopup')" type="button" class="cancelBtn"> Cancel </button>
+								<button onclick="hidePopupForm('#addAccountPopup')" type="button" class="cancelBtn"> Cancel </button>
 							</section>
 						</div>
 					</form>

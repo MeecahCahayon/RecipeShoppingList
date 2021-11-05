@@ -1,0 +1,56 @@
+/************************ DASHBOARD PAGE ************************/
+/*						  										*/
+/****************************************************************/
+/**************************** VARIABLES *************************/
+/* PALETTE */
+/* BACKGROUNDS */
+/* FONT COLOUR */
+/************************** GRID TEMPLATE ***********************/
+/*						IF NOT USING DEFAULT					*/
+/****************************************************************/
+/************************** MAIN SECTIONS ***********************/
+#mainGrid {
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 5px; }
+
+#mainGrid {
+  grid-template-rows: auto 1fr; }
+
+#groceryHeadingGrid, #groceryListGrid {
+  grid-column: 2/3;
+  padding: 2vh; }
+
+#groceryHeadingGrid {
+  grid-row: 1/2; }
+
+#groceryListGrid {
+  grid-row: 2/3; }
+
+/*#mainGrid { grid-template-rows: auto auto 1fr; }
+#groceryHeadingGrid, #grocerySearchGrid, #groceryListGrid { 
+	
+	grid-column: 2/3;
+	padding: 2vh;
+
+}
+#groceryHeadingGrid { grid-row: 1/2;}
+#grocerySearchGrid { grid-row: 2/3; }
+#groceryListGrid { grid-row: 3/4;}*/
+/************************** MINI SECTIONS ***********************/
+/************************** MAIN CONTENT ************************/
+/*						  										*/
+/****************************************************************/
+/************************** OVERALL STYLE ***********************/
+.userlists {
+  /* COLOURS */
+  /* FONTS */
+  font-size: small;
+  /* STYLE */ }
+
+#grocerySearchField {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  width: 65%; }
+
+/*# sourceMappingURL=grocerystyle.css.map */

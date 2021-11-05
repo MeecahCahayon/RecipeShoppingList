@@ -1,5 +1,5 @@
 <?php
-	//CHECKING ERRORS
+	// CHECKING ERRORS
 	ini_set("error_reporting", E_ALL);
 	ini_set("log_errors", "1");
 	ini_set("error_log", "aa_php_error.txt");
@@ -26,21 +26,25 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
+		<link rel="stylesheet" type="text/css" href="lib/cute-alert-master/style.css">
 		<link rel="stylesheet" type="text/css" href="scss/pagelayout.css">
 		<link rel="stylesheet" type="text/css" href="scss/popupform.css">
 		<link rel="stylesheet" type="text/css" href="scss/recipestyle.css">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/61bf2e2ad1.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="lib/cute-alert-master/cute-alert.js"></script>
 		<script type="text/javascript" src="js/mainscript.js"></script>
 		<script type="text/javascript" src="js/recipescript.js"></script>
-		<script type="text/javascript" src="js/recipewidget.js"></script>
 	</head>
 
-	<body>
+	<body onload="prep_recipe_page()">
 		<div class="outerDiv" id="pageOuterDiv">
 			<!-- HEADER -->
 			<section class="outerGrids" id="headerGrid">
@@ -55,11 +59,20 @@
 				<!-- MAIN MENU BUTTON -->
 				<section class="innerGrids" id="mainMenuBtnGrid">
 					<div id="mainMenuBtnCont">
-						<p id="listpage"  onclick="gotopage('listpage')"> List </p>
-						<p id="specialpage" onclick="gotopage('specialpage')"> Special </p>
-						<p id="recipepage" onclick="gotopage('recipepage')" class="activepage"> Recipes </p>
-						<p id="shoppage" onclick="gotopage('shoppage')"> Shops </p>
-						<p onclick="checklogout()"> Logout </p>
+						<section class="dropdownContainer">
+							<p class="inlinemenu"> Listing </p>
+
+							<div class="dropdown-content">
+								<p onclick="gotopage('watchpage')"> On Watch List </p>
+								<p onclick="gotopage('dishpage')"> On Menu List </p>
+								<p onclick="gotopage('grocerypage')"> Grocery List </p>
+							</div>
+						</section>
+
+						<p class="inlinemenu" onclick="gotopage('ingrpage')"> Ingrs </p>
+						<p class="inlinemenu" onclick="gotopage('recipepage')" class="activepage"> Recipes </p>
+						<!-- <p id="shoppage" class="inlinemenu" onclick="gotopage('shoppage')"> Shops </p> -->
+						<p class="inlinemenu" onclick="checklogout()"> Logout </p>
 					</div>
 				</section>
 			</section>
@@ -67,10 +80,10 @@
 			<!-- MAIN -->
 			<section class="outerGrids" id="mainGrid">
 
+				<!-- RECIPE HEADING -->
 				<section class="innerGrids" id="dishHeadingGrid">
-					<!-- RECIPE HEADING -->
 					<div id="dishHeadingContent">
-						<div class="secondHeadingPage">
+						<div class="secondHeading">
 							<p> My Recipes </p>
 						</div>
 						<div class="subtitle">
@@ -79,20 +92,36 @@
 					</div>
 				</section>
 
-				<section class="innerGrids" id="dishButtonGrid">
-					<!-- RECIPE BUTTON -->
-					<div id="dishButtonContent">
-						<button onclick="showPopupForm('addRecipePopup')" id="addrecipebtn"> Add Recipe </button>
+				<!-- SEARCH BAR -->
+				<section class="innerGrids" id="dishSearchGrid">
+					<div id="dishSearchCont">
+						<input class="userinputs searchinput" id="recipeSearchField" type="text" name="dishSearchValue">
+						<button id="recipeSeacrhbtn"> Search </button>
 					</div>
 				</section>
 
+				<!-- RECIPE LIST -->
+				<section class="innerGrids" id="dishLstGrid">
+					<div id="dishLstContent">
+					</div>	
+				</section>
+
+				<!-- BUTTON SECTION -->
+				<section class="innerGrids" id="dishButtonGrid">
+					<div id="dishButtonContent">
+						<button id="moreRecipeBtn">More</button>
+						<button onclick="showPopupForm('#addRecipePopup')" id="addrecipebtn"> Add Recipe </button>
+					</div>
+				</section>
+
+				<!-- POP UP FORM -->
 				<section class="modal", id="addRecipePopup">
 					<!-- POPUP FORM FOR ADDING RECIPE -->
 					<form method="POST" class="modal-content animate" onsubmit="return false">
 						<div class="popupform">
 
 							<!-- HEADING SECTION -->
-							<section class="secondHeadingForm">
+							<section class="secondHeading form2ndHeading">
 								<p> Add a new Recipe </p>
 							</section>
 
@@ -101,17 +130,17 @@
 
 							<section class="popupContent">
 								<label for="recipeNameField" class="formLbl"> Recipe Name </label>
-								<input type="text" name="recipeNameValue" class="formInput" id="recipeNameField" placeholder="Enter name of the Recipe" required>
+								<input type="text" name="recipeNameValue" class="userinputs" id="recipeNameField" placeholder="Enter name of the Recipe" required>
 								<br>
 
 								<label for="recipeLinkField" class="formLbl"> Recipe Link </label>
-								<input type="text" name="recipeLinkValue" class="formInput" id="recipeLinkField" placeholder="Enter name of the Recipe">
+								<input type="text" name="recipeLinkValue" class="userinputs" id="recipeLinkField" placeholder="Enter name of the Recipe">
 								<br>
 							</section>
 
-							<section class="popupContent" id="formButton">
+							<section class="popupContent" class="formButtonCont">
 								<button onclick="checkRecipeInfo()" type="submit"> Create Recipe </button>
-								<button onclick="hidePopupForm('addRecipePopup')" type="button" class="cancelBtn"> Cancel </button>
+								<button onclick="hidePopupForm('#addRecipePopup')" type="button" class="cancelBtn"> Cancel </button>
 							</section>
 						</div>
 					</form>
@@ -130,12 +159,5 @@
 			</section>
 		</div>
 	</body>
-
-	<!-- THIS CREATES AN INSTANCE OF THE RECIPTE PAGE WIDGET OBJECT -->
-	<script type="text/javascript">
-		var widget_container = document.getElementById("mainGrid");
-		var lastChild_container = document.getElementById("dishButtonGrid");
-		var recipe_widget = new recipewidget(widget_container, lastChild_container);
-	</script>
 </html>
 

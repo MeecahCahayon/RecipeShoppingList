@@ -1,0 +1,46 @@
+[22-Aug-2021 12:44:53 Europe/Berlin] PHP Warning:  require_once(../db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 9
+[22-Aug-2021 12:44:53 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../db.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 9
+[22-Aug-2021 12:45:55 Europe/Berlin] PHP Warning:  require_once(../db.php): failed to open stream: No such file or directory in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 9
+[22-Aug-2021 12:45:55 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '../db.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 9
+[22-Aug-2021 13:16:07 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 13
+[22-Aug-2021 13:16:07 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 13
+[22-Aug-2021 13:16:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 25
+[22-Aug-2021 13:16:07 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 13
+[22-Aug-2021 13:16:07 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 13
+[22-Aug-2021 13:16:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 25
+[22-Aug-2021 13:16:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php:26
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 26
+[22-Aug-2021 13:18:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php:26
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 26
+[22-Aug-2021 13:18:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php:26
+Stack trace:
+#0 C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 26
+[22-Aug-2021 13:22:31 Europe/Berlin] PHP Notice:  Undefined variable: stmt in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 26
+[22-Aug-2021 13:22:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 26
+[22-Aug-2021 13:26:47 Europe/Berlin] PHP Notice:  Undefined variable: stmt in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 26
+[22-Aug-2021 13:26:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\searchRecipe.php on line 26
+[14-Oct-2021 12:43:45 Europe/Berlin] PHP Notice:  Undefined index: input in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\search_recipe.php on line 13
+[14-Oct-2021 12:43:45 Europe/Berlin] PHP Notice:  Undefined index: input in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\search_recipe.php on line 13
+[14-Oct-2021 12:45:39 Europe/Berlin] PHP Notice:  Undefined index: input in C:\xampp\htdocs\Projects\RecipeShoppingList\includes\get\search_recipe.php on line 13

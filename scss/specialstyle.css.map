@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,sEAAsE;AAEtE,iCAAiC;AAEjC,aAAa;AAEb,iBAAiB;AAEjB,+DAA+D;AAC/D,iEAAiE;AAEjE,mBAAmB;AACnB,WAAY;EAAE,kBAAkB,EAAE,SAAS;;AAC3C,SAAU;EAAE,kBAAkB,EAAE,SAAS;;AAEzC,kBAAkB;AAClB,6BAA8B;EAE7B,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,GAAG;;AAIb,kCAAkC",
-"sources": ["specialstyle.scss"],
-"names": [],
-"file": "specialstyle.css"
-}

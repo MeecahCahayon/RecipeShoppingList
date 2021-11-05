@@ -1,10 +1,124 @@
-/************************** ALL PAGE **************************/
-/*********  VARIABLES  *********/
+/**************************** ALL PAGE **************************/
+/*						  										*/
+/****************************************************************/
+/***************************** IMPORTS **************************/
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/**************************** VARIABLES *************************/
 /* PALETTE */
 /* BACKGROUNDS */
-/* FONT */
-/* FONTS */
-/*********  OVERALL STYLE  *********/
+/* FONT COLOUR */
+/* FONT DESIGN */
+/************************** GRID TEMPLATE ***********************/
+/*						  										*/
+/****************************************************************/
+/************************* THE OUTER - ROW **********************/
+.outerDiv {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 5px;
+  height: 100vh; }
+
+#headerGrid {
+  grid-row: 1/2;
+  background-color: #181915; }
+
+#mainGrid {
+  grid-row: 2/3; }
+
+#footerGrid {
+  grid-row: 3/4;
+  background-color: #282923; }
+
+/*********************** THE INNER - COLUMNS ********************/
+.outerGrids {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-column: 1/4;
+  grid-gap: 5px; }
+
+/************************** MAIN SECTIONS ***********************/
+#headerGrid {
+  grid-template-rows: auto auto; }
+
+#headingGrid, #mainMenuBtnGrid {
+  grid-column: 2/3; }
+
+#footGrid {
+  grid-column: 2/3; }
+
+/************************** MINI SECTIONS ***********************/
+/* LIST WITH LIST AND PICKS */
+.comparelist {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 20px; }
+  .comparelist .userpicks {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 5px 15px; }
+  .comparelist .eachpicks {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    border: 0.5px solid #d8d8d8;
+    border-radius: 15px;
+    margin: 0 10px; }
+    .comparelist .eachpicks img {
+      /* COLOURS */
+      /* FONTS */
+      /* STYLE */
+      border: 0.5px solid #d8d8d8;
+      border-radius: 10px;
+      padding: 8px 10px;
+      width: 100px; }
+    .comparelist .eachpicks p {
+      /* COLOURS */
+      /* FONTS */
+      /* STYLE */
+      margin: 0; }
+  .comparelist .img-logo {
+    margin: .5vh; }
+
+.userlists {
+  grid-column: 1/2; }
+
+.userpicks {
+  grid-column: 2/3; }
+
+/* LIST WITH ICONS */
+.userlists {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 5px 15px; }
+  .userlists p {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    margin: 0 10px;
+    text-align: left; }
+  .userlists section {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    text-align: right; }
+
+.faIcon {
+  grid-column: 1/2; }
+
+.listname {
+  grid-column: 2/3; }
+
+/************************** OVERALL STYLE ***********************/
+/*						  										*/
+/****************************************************************/
 body {
   /* COLOURS */
   color: #ffdae0;
@@ -18,34 +132,6 @@ body {
   text-decoration: none;
   margin: 0; }
 
-/*********  GRID TEMPLATE  *********/
-.outerDiv, .outerGrids {
-  display: grid; }
-
-/*.outerGrids { border: solid 3px white; }*/
-/*.innerGrids { border: solid 3px white; }*/
-/* GRID THE PAGE - ROWS */
-#pageOuterDiv {
-  grid-template-rows: auto 1fr auto;
-  grid-gap: 5px;
-  height: 100vh; }
-
-/* GRID THE MAIN SECTIONS - COLUMN - DEFAULT*/
-#headerGrid, #footerGrid, #mainGrid {
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-gap: 5px; }
-
-#headerGrid {
-  grid-template-rows: auto auto; }
-
-/*********  HEADER SECTION PAGE GRID  *********/
-#headerGrid {
-  grid-column: 1/4;
-  background-color: #181915; }
-
-#headingGrid, #mainMenuBtnGrid {
-  grid-column: 2/3; }
-
 #headingCont {
   /* COLOURS */
   color: #ff748c;
@@ -56,36 +142,31 @@ body {
   text-transform: uppercase;
   text-align: center; }
 
-#mainMenuBtnCont p {
-  /* COLOURS */
-  color: #ffdae0;
-  /* FONTS */
-  font-size: large;
+#mainMenuBtnCont .inlinemenu {
   /* STYLE */
-  display: inline-block;
-  text-decoration: none;
-  padding: 0 2vh;
-  margin: 0;
-  cursor: pointer; }
-  #mainMenuBtnCont p:hover {
+  display: inline-block; }
+  #mainMenuBtnCont .inlinemenu:hover {
     /* COLOURS */
     background-color: #282923;
     /* FONTS */
     /* STYLE */
     border-radius: 10px 10px 0 0;
     opacity: 0.5; }
-
-/*********  MAIN SECTION PAGE GRID  *********/
-#mainGrid {
-  grid-column: 1/4; }
-
-/*********  FOOTER SECTION PAGE GRID  *********/
-#footerGrid {
-  grid-column: 1/4;
-  background-color: #282923; }
-
-#footGrid {
-  grid-column: 1/4; }
+#mainMenuBtnCont p {
+  /* COLOURS */
+  color: #ffdae0;
+  /* FONTS */
+  font-size: large;
+  /* STYLE */
+  text-decoration: none;
+  padding: 0 2vh;
+  margin: 0;
+  cursor: pointer; }
+#mainMenuBtnCont section {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  display: inline-block; }
 
 #footerCont {
   /* COLOURS */
@@ -97,8 +178,9 @@ body {
   text-transform: uppercase;
   text-align: center; }
 
-/*********  FUNCTIONS  *********/
-/* MENU */
+/****************************** MENU ****************************/
+/*						  										*/
+/****************************************************************/
 .activepage {
   /* COLOURS */
   background-color: #282923;
@@ -106,27 +188,112 @@ body {
   /* STYLE */
   border-radius: 10px 10px 0 0; }
 
-/* PAGE/FORM HEADING (SECOND HEADING) */
-/* PAGE HEADING */
-.secondHeadingPage, .secondHeadingForm {
+/* DROPDOWN MENU */
+.dropdown-content:before {
+  /* COLOURS */
+  border-color: transparent transparent #181915 transparent;
+  /* FONTS */
+  /* STYLE */
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: -10px;
+  z-index: 9999; }
+
+.dropdown-content:after {
+  /* COLOURS */
+  border-color: transparent transparent #d8d8d8 transparent;
+  /* FONTS */
+  /* STYLE */
+  border-style: solid;
+  border-width: 0 13px 13px 13px;
+  content: "";
+  position: absolute;
+  left: 27px;
+  top: -13px;
+  z-index: 9998; }
+
+.dropdown-content {
+  /* COLOURS */
+  background-color: #181915;
+  /* FONTS */
+  /* STYLE */
+  display: none;
+  position: absolute;
+  border: 2px solid #d8d8d8;
+  border-radius: 20px;
+  margin: 15px 0;
+  padding: 10px;
+  float: left;
+  z-index: 99999; }
+  .dropdown-content p {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */ }
+    .dropdown-content p:hover {
+      /* COLOURS */
+      background-color: #282923;
+      /* FONTS */
+      /* STYLE */
+      opacity: 0.5; }
+
+/**************************** HEADINGS **************************/
+/*						  										*/
+/****************************************************************/
+.secondHeading {
   /* COLOURS */
   /* FONTS */
   font-family: "Bungee Inline", cursive;
   font-size: x-large;
   font-weight: 100;
   /* STYLE */ }
-  .secondHeadingPage p, .secondHeadingForm p {
+  .secondHeading p {
     /* COLOURS */
     /* FONTS */
     /* STYLE */
     margin: 0; }
 
-.secondHeadingForm {
+.form2ndHeading {
   /* COLOURS */
   /* FONTS */
   font-size: medium;
   /* STYLE */ }
 
+.thirdHeading {
+  /* COLOURS */
+  /* FONTS */
+  font-family: "Bungee", cursive;
+  font-size: medium;
+  font-weight: 100;
+  /* STYLE */ }
+  .thirdHeading p {
+    /* COLOURS */
+    /* FONTS */
+    /* STYLE */
+    margin: 0; }
+
+.placeholder {
+  /* COLOURS */
+  background-color: #ffdae0;
+  color: #282923;
+  /* FONTS */
+  font-size: .6vw;
+  /* STYLE */
+  border: 0.5px solid #d8d8d8;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0 25px; }
+  .placeholder p {
+    /* COLOURS */
+    /* FONTS */
+    font-weight: 800;
+    /* STYLE */
+    padding: 2px 10px;
+    margin: 0; }
+
+/* WARNINGS - SUCCESS MSGS - NOTES */
 .subtitle {
   /* COLOURS */
   /* FONTS */
@@ -135,7 +302,6 @@ body {
   .subtitle p {
     margin: 0; }
 
-/* WARNINGS */
 .warningSec {
   /* COLOURS */
   color: #ff284d;
@@ -150,7 +316,10 @@ body {
   /* COLOURS */
   color: #ff748c; }
 
-/* BUTTON */
+/**************************** FUNCTIONS *************************/
+/*						  										*/
+/****************************************************************/
+/***************************** BUTTONS **************************/
 button {
   /* COLOURS */
   color: #ffdae0;
@@ -163,7 +332,7 @@ button {
   /* STYLE */
   text-decoration: none;
   border-radius: 30px;
-  padding: .3vh 2vw;
+  padding: .1vh 1vw;
   margin: .5vh;
   cursor: pointer; }
   button:hover {
@@ -172,12 +341,26 @@ button {
     margin: 0px;
     padding: 0px; }
 
-/* INPUTS */
-.loginInput, .searchInput, .formInput {
+.faIcon {
+  /* COLOURS */
+  color: #ff748c;
+  /* FONTS */
+  /* STYLE */
+  margin: 0 10px;
+  cursor: pointer; }
+
+.recipe {
+  /* COLOURS */
+  /* FONTS */
+  /* STYLE */
+  cursor: pointer; }
+
+/***************************** INPUTS ***************************/
+/*.loginInput, .searchInput, .formInput, .addStepInput {*/
+.userinputs {
   /* COLOURS */
   color: #ffdae0;
   background-color: #282923;
-  border-color: #d8d8d8;
   /* FONTS */
   font-family: "Josefin Slab", serif;
   letter-spacing: 1px;
@@ -185,17 +368,20 @@ button {
   font-weight: 400;
   /* STYLE */
   text-decoration: none;
-  border: 0.5px solid;
+  border: 0.5px solid #d8d8d8;
   border-radius: 30px;
   padding: 0.9vh 2vw;
   margin: 2% 0%;
   width: 50%; }
 
-/* FORMS */
+.searchinput {
+  text-align: right; }
+
+/****************************** FORMS ***************************/
 .formLbl {
   margin: 2% 2%; }
 
-#formButton {
+.formButtonCont {
   margin: 5% 0% 0 0; }
 
 /*# sourceMappingURL=pagelayout.css.map */

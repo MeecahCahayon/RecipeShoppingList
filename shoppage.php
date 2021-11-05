@@ -26,6 +26,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
@@ -34,6 +35,7 @@
 		<link rel="stylesheet" type="text/css" href="scss/pagelayout.css">
 		<link rel="stylesheet" type="text/css" href="scss/shopstyle.css">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/mainscript.js"></script>
 		<!-- <script type="text/javascript" src="js/processlogin.js"></script> -->
 	</head>
@@ -53,11 +55,20 @@
 				<!-- MAIN MENU BUTTON -->
 				<section class="innerGrids" id="mainMenuBtnGrid">
 					<div id="mainMenuBtnCont">
-						<p id="listpage"  onclick="gotopage('listpage')"> List </p>
-						<p id="specialpage" onclick="gotopage('specialpage')"> Special </p>
-						<p id="recipepage" onclick="gotopage('recipepage')"> Recipes </p>
-						<p id="shoppage" onclick="gotopage('shoppage')" class="activepage"> Shops </p>
-						<p onclick="checklogout()"> Logout </p>
+						<section class="dropdownContainer">
+							<p class="inlinemenu"> Listing </p>
+
+							<div class="dropdown-content">
+								<p onclick="gotopage('watchpage')"> On Watch List </p>
+								<p onclick="gotopage('dishpage')"> On Menu List </p>
+								<p onclick="gotopage('grocerypage')"> Grocery List </p>
+							</div>
+						</section>
+
+						<p class="inlinemenu" onclick="gotopage('ingrpage')"> Ingrs </p>
+						<p class="inlinemenu" onclick="gotopage('recipepage')"> Recipes </p>
+						<p class="inlinemenu" onclick="gotopage('shoppage')" class="activepage"> Shops </p>
+						<p class="inlinemenu" onclick="checklogout()"> Logout </p>
 					</div>
 				</section>
 			</section>
